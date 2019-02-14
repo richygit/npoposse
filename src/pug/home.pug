@@ -5,7 +5,30 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title
       | npoposse homepage
-    link(rel='stylesheet', href='https://unpkg.com/purecss@1.0.0/build/pure-min.css')
-body
-  h1
-    | hello world
+
+    link(rel="stylesheet", href="https://unpkg.com/purecss@1.0.0/build/pure-min.css", integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w", crossorigin="anonymous")
+
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <link rel="stylesheet" href="css/grid-old-ie.css">
+      <link rel="stylesheet" href="css/app-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+      <link rel="stylesheet" href="css/grid.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+
+  body
+    .pure-g
+      .pure-u-1
+        header
+          .logo
+            a(href="/")
+              img(src="images/logo.png", alt="logo")
+            .tagline
+              | 若者の「働くこと」に関する
+              br
+              | 様々な問題に取り組むNPO法人
