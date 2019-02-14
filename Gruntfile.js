@@ -1,40 +1,73 @@
 module.exports = function(grunt) {
-
-  // Project configuration.
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
-    uglify: {
-      options: {
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-      },
-      build: {
-        src: 'src/<%= pkg.name %>.js',
-        dest: 'build/<%= pkg.name %>.min.js'
+    sass: {                              // Task
+      dist: {                            // Target
+        options: {                       // Target options
+          style: 'expanded'
+        },
+        files: {                         // Dictionary of files
+          'dist/css/main.css': 'src/css/main.scss',       // 'destination': 'source'
+        }
       }
-    }
-  });
-
-  // Load the plugin that provides the "uglify" task.
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-
-  //ensure users on IE 8 and below get to view the desktop experience on mobile devices
-  grunt.loadNpmTasks('grunt-stripmq');
-
-  grunt.initConfig({
+    },
     stripmq: {
         all: {
             files: {
-                // Takes the input file `grid.css`, and generates `grid-old-ie.css`.
-                'css/grid-old-ie.css': ['css/grid.css'],
-
                 // Takes the input file `app.css`, and generates `app-old-ie.css`.
-                'css/app-old-ie.css': ['css/app.css']
+              'dist/css/main-old-ie.css': ['src/css/main.css']
             }
         }
-    }
+    },
+    pug: {
+      compile: {
+        options: {
+          data: {
+            debug: false
+          }
+        },
+        files: [{
+          expand: true,
+          cwd: '.',
+          src: ['src/pug/*.pug'],
+          dest: 'dist/',
+          ext: '.html',
+          rename: function(dest, src) {
+            src = src.replace('src/pug/', '');
+            src = src.replace(/.pug$/, '.html');
+            return dest + src;
+          },
+        }]
+      }
+    },
+    watch: {
+      scripts: {
+        files: ['src/**/*'],
+        tasks: ['sass', 'pug', 'htmllint'],
+        options: {
+          spawn: false,
+        },
+      },
+    },
+    vnuserver: {
+    },
+    htmllint: {
+      all: {
+        options: {
+          server: {}
+        },
+        src: 'dist/**.html'
+      }
+    },
   });
 
-  // Default task(s).
-  grunt.registerTask('default', ['uglify']);
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  //ensure users on IE 8 and below get to view the desktop experience on mobile devices
+  grunt.loadNpmTasks('grunt-stripmq');
+  grunt.loadNpmTasks('grunt-contrib-pug');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-html');
+  grunt.loadNpmTasks('grunt-vnuserver');
 
+  // Default task(s).
+  grunt.registerTask('default', ['vnuserver', 'watch']);
 };
