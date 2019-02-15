@@ -1,2 +1,6 @@
 **/*.sw*
 node_modules
+dev/
+dist/
+.sass-cache/
+**/.DS_Store
