@@ -46,6 +46,7 @@ module.exports = function(grunt) {
         tasks: ['sass', 'pug', 'htmllint', 'copy'],
         options: {
           spawn: false,
+          livereload: true,
         },
       },
     },
@@ -65,7 +66,6 @@ module.exports = function(grunt) {
           port: 9001,
           host: 'localhost',
           base: 'dev',
-          livereload: false, //TODO enable livereload/browser-sync
         }
       }
     },
