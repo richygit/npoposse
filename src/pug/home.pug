@@ -2,33 +2,36 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
     title
       | npoposse homepage
 
-    link(rel="stylesheet", href="https://unpkg.com/purecss@1.0.0/build/pure-min.css", integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w", crossorigin="anonymous")
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T", crossorigin="anonymous")
+    link(rel="stylesheet", href="css/main.css")
 
-    <!--[if lte IE 8]>
-      <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
-    <![endif]-->
-    <!--[if lt IE 9]>
-      <link rel="stylesheet" href="css/grid-old-ie.css">
-      <link rel="stylesheet" href="css/app-old-ie.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-      <link rel="stylesheet" href="css/grid.css">
-      <link rel="stylesheet" href="css/main.css">
-      <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
-    <!--<![endif]-->
+    script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js", integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo", crossorigin="anonymous")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js", integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1", crossorigin="anonymous")
+    script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js", integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM", crossorigin="anonymous")
 
   body
-    .pure-g
-      .pure-u-1
-        header
-          .logo
-            a(href="/")
-              img(src="images/logo.png", alt="logo")
-            .tagline
-              | 若者の「働くこと」に関する
-              br
-              | 様々な問題に取り組むNPO法人
+    header
+      nav.navbar.navbar-light
+        a.navbar-brand(href="/")
+          img(src="images/logo.png", alt="logo")
+          .tagline
+            | 若者の「働くこと」に関する
+            br
+            | 様々な問題に取り組むNPO法人
+        button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarsExample04", aria-controls="navbarsExample04", aria-expanded="false", aria-label="Toggle navigation")
+          span.navbar-toggler-icon
+
+        .collapse.navbar-collapse#navbarsExample04
+          ul.navbar-nav.mr-auto
+            li.nav-item.active
+              a.nav-link(href="/")
+                | Home
+                span.sr-only (current)
+            li.nav-item.active
+              a.nav-link(href="#") news
+            li.nav-item.active
+              a.nav-link(href="#") about us
