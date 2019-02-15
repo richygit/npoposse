@@ -40,16 +40,6 @@ module.exports = function(grunt) {
         }]
       }
     },
-    watch: {
-      scripts: {
-        files: ['src/**/*'],
-        tasks: ['sass', 'pug', 'htmllint', 'copy'],
-        options: {
-          spawn: false,
-          livereload: true,
-        },
-      },
-    },
     vnuserver: {
     },
     htmllint: {
@@ -80,12 +70,65 @@ module.exports = function(grunt) {
             dest: 'dev/images/', 
             filter: 'isFile'
           },
+          {
+            expand: true, 
+            flatten: true, 
+            src: ['src/js/**'], 
+            dest: 'dev/js/', 
+            filter: 'isFile'
+          },
         ],
+      },
+    },
+    postcss: {
+      options: {
+        map: {
+            inline: false, // save all sourcemaps as separate files...
+            annotation: 'dist/css/maps/' // ...to the specified directory
+        },
+
+        processors: [
+          require('pixrem')(), // add fallbacks for rem units
+          require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
+          require('cssnano')() // minify the result
+        ]
+      },
+      dist: {
+        src: 'dev/css/*.css'
+      }
+    },
+    imagemin: {
+      dynamic: {
+        files: [{
+          expand: true,
+          cwd: 'src/images',
+          src: ['**/*.{png,jpg,gif}'],
+          dest: 'dev/images/'
+        }]
+      }
+    },
+    uglify: {
+      my_target: {
+        options: {
+          sourceMap: true,
+        },
+        files: {
+          'dev/js/main.min.js': ['src/js/menu.js']
+        }
+      }
+    },
+    watch: {
+      scripts: {
+        files: ['src/**/*'],
+        tasks: ['sass', 'pug', 'htmllint', 'copy'],
+        options: {
+          spawn: false,
+          livereload: true,
+        },
       },
     },
   });
 
-  //TODO setup dist task to minimise and uglify assets
   grunt.loadNpmTasks('grunt-contrib-sass');
   //ensure users on IE 8 and below get to view the desktop experience on mobile devices
   grunt.loadNpmTasks('grunt-stripmq');
@@ -95,7 +138,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-vnuserver');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-postcss');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Default task(s).
-  grunt.registerTask('default', ['vnuserver', 'connect', 'watch']);
+  grunt.registerTask(
+    'default', ['vnuserver', 'connect', 'watch']
+  );
 };
