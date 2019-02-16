@@ -3,6 +3,16 @@ html(lang='en')
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
+
+    // TODO implement in wordpress
+    meta(property="og:title", content="European Travel Destinations")
+    meta(property="og:description", content="Offering tour packages for individuals or groups.")
+    meta(property="og:image", content="http://euro-travel-example.com/thumbnail.jpg")
+    meta(property="og:url", content="http://euro-travel-example.com/index.htm")
+    meta(name="twitter:card", content="summary_large_image")
+    meta(property="og:site_name", content="European Travel, Inc.")
+    meta(name="twitter:image:alt", content="Alt text for image")
+
     title
       | npoposse homepage
 
@@ -42,7 +52,26 @@ html(lang='en')
     .container-fluid
       section.marquee
         img.img-fluid(src="images/top-main.png", alt="top main photo")
-        h2 
-          span.main 普通に働ける社会へ
-          span.tagline POSSEは若者の「働くこと」に関する 様々な問題に取り組むNPO法人です
+        .centre-text
+          .main 普通に働ける社会へ
+          .tagline POSSEは若者の「働くこと」に関する 
+          .tagline 様々な問題に取り組むNPO法人です
+      .lead-bar
+      section.contact.centre-text
+        .title お気軽にご相談ください
+        .options 相談無料  /  秘密厳守  /  電話・メールOK
+      section.counselling
+        .dovetail
+        .centre-text 
+          .main 労働相談
+        .details
+          img(src="images/counselling.png", alt="counselling icon")
+          ul
+            li 
+              span 残業代が払われない 
+            li 
+              span パワハラ、嫌がらせ 
+            li 
+              span 雇用を打ち切られた
+          a(href="#").btn.btn-primary 労働について相談したい
 
