@@ -13,7 +13,7 @@ html(lang='en')
     script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js", integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1", crossorigin="anonymous")
     script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js", integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM", crossorigin="anonymous")
 
-  body
+  body.home
     header
       nav.navbar.navbar-light
         a.navbar-brand(href="/")
@@ -22,7 +22,7 @@ html(lang='en')
             | 若者の「働くこと」に関する
             br
             | 様々な問題に取り組むNPO法人
-        button.navbar-toggler(type="button", data-toggle="collapse", data-target="main-menu", aria-controls="navbarsExample04", aria-expanded="false", aria-label="Toggle navigation")
+        button.navbar-toggler(type="button", data-toggle="collapse", data-target="#main-menu", aria-controls="main-menu", aria-expanded="false", aria-label="Toggle navigation")
           span.navbar-toggler-icon
 
         .collapse.navbar-collapse#main-menu
@@ -38,4 +38,11 @@ html(lang='en')
         .btn-group(role="toolbar", aria-label="生活相談, 労働相談")
           a.counselling.btn 労働相談
           a.consultation.btn 生活相談
+
+    .container-fluid
+      section.marquee
+        img.img-fluid(src="images/top-main.png", alt="top main photo")
+        h2 
+          span.main 普通に働ける社会へ
+          span.tagline POSSEは若者の「働くこと」に関する 様々な問題に取り組むNPO法人です
 

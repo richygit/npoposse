@@ -66,14 +66,14 @@ module.exports = function(grunt) {
           {
             expand: true, 
             flatten: true, 
-            src: ['src/images/**'], 
+            src: ['src/images/*'], 
             dest: 'dev/images/', 
             filter: 'isFile'
           },
           {
             expand: true, 
             flatten: true, 
-            src: ['src/js/**'], 
+            src: ['src/js/*'], 
             dest: 'dev/js/', 
             filter: 'isFile'
           },
@@ -120,7 +120,7 @@ module.exports = function(grunt) {
     watch: {
       scripts: {
         files: ['src/**/*'],
-        tasks: ['sass', 'pug', 'htmllint', 'copy'],
+        tasks: ['copy', 'sass', 'pug', 'htmllint'],
         options: {
           spawn: false,
           livereload: true,
