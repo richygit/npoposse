@@ -22,10 +22,10 @@ html(lang='en')
             | 若者の「働くこと」に関する
             br
             | 様々な問題に取り組むNPO法人
-        button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarsExample04", aria-controls="navbarsExample04", aria-expanded="false", aria-label="Toggle navigation")
+        button.navbar-toggler(type="button", data-toggle="collapse", data-target="main-menu", aria-controls="navbarsExample04", aria-expanded="false", aria-label="Toggle navigation")
           span.navbar-toggler-icon
 
-        .collapse.navbar-collapse#navbarsExample04
+        .collapse.navbar-collapse#main-menu
           ul.navbar-nav.mr-auto
             li.nav-item.active
               a.nav-link(href="/")
@@ -35,3 +35,7 @@ html(lang='en')
               a.nav-link(href="#") news
             li.nav-item.active
               a.nav-link(href="#") about us
+        .btn-group(role="toolbar", aria-label="生活相談, 労働相談")
+          a.counselling.btn 労働相談
+          a.consultation.btn 生活相談
+
