@@ -11,6 +11,22 @@ html {
   font-weight: 500;
 }
 
+.btn.btn-primary {
+  margin: 10px auto;
+  width: 100%;
+  border-radius: 20px;
+  height: 2.6rem;
+  line-height: 1.9rem;
+  font-size: 0.9rem;
+  border-color: $white;
+      
+  &::after {
+    content: '>';
+    margin-left: 15px;
+    font-weight: 800;
+  }
+}
+
 .navbar {
   padding: 4px;
 
@@ -43,7 +59,7 @@ html {
   .tagline {
     font-size: 0.5rem;
     display: inline-block;
-    color: $logo-colour;
+    color: $theme-grey;
   }
 }
 
@@ -88,7 +104,7 @@ html {
   }
 }
 
-.centre-text > div {
+.centre-text > div, .centre-text a {
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -168,19 +184,6 @@ html {
     .btn.btn-primary {
       background-color: $white;
       color: $theme-colour;
-      margin: 10px auto;
-      width: 100%;
-      border-radius: 20px;
-      height: 2.6rem;
-      line-height: 1.9rem;
-      font-size: 0.9rem;
-      border-color: $white;
-      
-      &::after {
-        content: '>';
-        margin-left: 15px;
-        font-weight: bold;
-      }
     }
   }
 }
@@ -197,7 +200,7 @@ html {
 }
 
 .about {
-  padding: 20px 0;
+  padding-top: 20px;
   font-weight: 600;
 
   .main {
@@ -214,5 +217,108 @@ html {
       color: $theme-colour;
       font-weight: inherit;
     }
+  }
+}
+
+.links {
+  .links-container {
+    background-color: $theme-light-grey;
+    margin: 15px 15px 0 15px;
+    padding: 35px 0;
+  }
+
+  .img {
+    &.icon-resolution, &.icon-qa {
+      top: 36px;
+    }
+  }
+
+  .circle-icon {
+    background-color: $white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+
+    img {
+      width: 40px;
+      position: absolute;
+      top: 26px;
+      left: 31px;
+    }
+  }
+
+  .centre-text {
+    .link {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-top: 20px;
+      color: $black;
+      display: block;
+
+      &::after {
+        font-size: 0.8rem;
+        position: relative;
+        top: -3px;
+        color: $theme-grey;
+      }
+    }
+  }
+
+  .content {
+    color: $theme-grey;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    width: 80%;
+    margin: 15px auto 0 auto;
+    font-weight: 400;
+  }
+}
+
+.latest {
+  .title {
+    font-size: 2rem;
+    width: 50%;
+    margin-top: 70px;
+  }
+
+  .separator {
+    background-color: $theme-colour;
+    margin: 40px auto 60px auto;
+    display: block;
+    height: 4px;
+    width: 82px;
+    position: relative;
+  }
+  .news {
+    margin: 25px 12px 12px 12px;
+  }
+  .date {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .headline {
+    background-color: $theme-light-grey;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 4px 20px;
+    margin-left: 12px;
+  }
+  .content {
+    color: $theme-grey;
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: normal;
+    margin-top: 9px;
+  }
+  .btn.btn-primary {
+    background-color: $theme-light-grey;
+    color: $black;
+    &::after {
+      color: $theme-grey;
+    }
+  }
+  .btn-container {
+    margin: 0 10px 90px 10px;
   }
 }
