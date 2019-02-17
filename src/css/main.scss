@@ -22,8 +22,20 @@ html {
       
   &::after {
     content: '>';
-    margin-left: 15px;
+    margin-left: 12px;
     font-weight: 800;
+  }
+}
+
+.btn.btn-primary.window {
+  &::after {
+    content: '';
+    background: url(/images/window.png) no-repeat center center;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-size: 12px;
+    vertical-align: baseline;
   }
 }
 
@@ -39,10 +51,10 @@ html {
   }
 
   .counselling {
-    background-color: $theme-colour;
+    background-color: $theme-green;
   }
   .consultation {
-    background-color: $theme-light-colour;
+    background-color: $theme-light-green;
   }
 }
 
@@ -64,7 +76,7 @@ html {
 }
 
 .navbar-toggler-icon {
-  color: $theme-colour;
+  color: $theme-green;
 }
 
 .navbar-light .navbar-toggler {
@@ -111,7 +123,7 @@ html {
 }
 
 .lead-bar {
-  background-color: $theme-colour;
+  background-color: $theme-green;
   width: 2px;
   height: 30px;
   position: relative;
@@ -128,7 +140,7 @@ html {
   }
   .options {
     margin-top: 7px;
-    color: $theme-colour;
+    color: $theme-green;
     font-size: 0.8rem;
   }
 }
@@ -183,20 +195,20 @@ html {
     }
     .btn.btn-primary {
       background-color: $white;
-      color: $theme-colour;
+      color: $theme-green;
     }
   }
 }
 
 .counselling {
-  background-color: $theme-colour;
+  background-color: $theme-green;
 }
 
 .consultation {
   .main {
     padding-top: 40px;
   }
-  background-color: $theme-light-colour;
+  background-color: $theme-light-green;
 }
 
 .about {
@@ -214,7 +226,7 @@ html {
     margin-bottom: 80px;
 
     strong {
-      color: $theme-colour;
+      color: $theme-green;
       font-weight: inherit;
     }
   }
@@ -283,7 +295,7 @@ html {
   }
 
   .separator {
-    background-color: $theme-colour;
+    background-color: $theme-green;
     margin: 40px auto 60px auto;
     display: block;
     height: 4px;
@@ -320,5 +332,97 @@ html {
   }
   .btn-container {
     margin: 0 10px 90px 10px;
+  }
+}
+
+.support {
+  background: url('/images/support-bg.png')  no-repeat top center; 
+  background-size: cover;
+  color: $white;
+
+  .title {
+    padding-top: 40px;
+    font-size: 1.6rem;
+  }
+
+  .content {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+  
+  .buttons {
+    margin-top: 13px;
+    padding-bottom: 50px;
+  }
+  
+  .btn.btn-primary {
+    background-color: $theme-green;
+    color: $white;
+    border-width: 0px;
+  }
+}
+
+.banners {
+  background-color: $theme-light-grey;
+  padding: 20px;
+  padding-bottom: 40px;
+  
+  .banner {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .logo {
+    margin-top: 40px;
+
+    img {
+      width: 45%;
+    }
+  }
+
+  .address {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+
+    .company-number {
+      margin: 20px 0;
+      display: block;
+    }
+  }
+}
+
+footer {
+  background-color: $theme-light-grey;
+
+  a {
+    color: $black;
+  }
+
+  ul {
+    list-style: none;
+    padding-inline-start: unset;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+
+    a {
+      display: inline-block;
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 1px;
+      background-color: $white;
+    }
+  }
+
+  .centre-text .copyright {
+    width: 100%;
+  }
+
+  .copyright {
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 0.7rem;
+    color: $theme-grey;
+    font-weight: 300;
   }
 }
