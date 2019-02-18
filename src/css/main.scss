@@ -17,7 +17,7 @@ html {
   border-radius: 20px;
   height: 2.6rem;
   line-height: 1.9rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   border-color: $white;
       
   &::after {
@@ -45,6 +45,7 @@ html {
   .btn-group {
     width: 100%;
     .btn {
+      padding: 0.6rem .75rem;
       border-radius: 0;
       color: $white;
     }
@@ -69,7 +70,8 @@ html {
     margin-left: 3px;
   }
   .tagline {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
+    line-height: 0.7rem;
     display: inline-block;
     color: $theme-grey;
   }
@@ -112,6 +114,9 @@ html {
     .tagline {
       width: 80%;
       font-size: 0.7rem;
+      line-height: 1.2rem;
+      font-weight: 400;
+      text-shadow: 0px 0px 16px #999;
     }
   }
 }
@@ -132,7 +137,7 @@ html {
 }
 
 .contact {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 
   .title {
     margin-top: 10px;
@@ -147,7 +152,7 @@ html {
 
 .core-function {
   color: $white;
-  padding-bottom: 45px;
+  padding-bottom: 50px;
 
   .dovetail {
     width: 0; 
@@ -216,7 +221,7 @@ html {
   font-weight: 600;
 
   .main {
-    font-size: 2rem;
+    font-size: 2.1rem;
     padding: 0 20px;
     margin: 30px 0;
   }
@@ -235,13 +240,15 @@ html {
 .links {
   .links-container {
     background-color: $theme-light-grey;
-    margin: 15px 15px 0 15px;
+    margin: 20px 20px 0 20px;
     padding: 35px 0;
   }
 
   .img {
     &.icon-resolution, &.icon-qa {
-      top: 36px;
+      width: 49px;
+      top: 33px;
+      left: 27px;
     }
   }
 
@@ -253,16 +260,16 @@ html {
     position: relative;
 
     img {
-      width: 40px;
+      width: 37px;
       position: absolute;
-      top: 26px;
-      left: 31px;
+      top: 27px;
+      left: 32px;
     }
   }
 
   .centre-text {
     .link {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       font-weight: 600;
       margin-top: 20px;
       color: $black;
@@ -273,6 +280,9 @@ html {
         position: relative;
         top: -3px;
         color: $theme-grey;
+        content: '>';
+        margin-left: 12px;
+        font-weight: 800;
       }
     }
   }
@@ -331,7 +341,8 @@ html {
     }
   }
   .btn-container {
-    margin: 0 10px 90px 10px;
+    margin: 0 10px 110px 10px;
+    padding-top: 15px;
   }
 }
 
