@@ -450,6 +450,23 @@ html {
     letter-spacing: 1px;
   }
 
+  .lead-bar {
+    width: 4px;
+    height: 53px;
+    top: -21px;
+  }
+
+  .contact {
+    .title {
+      font-weight: 500;
+      font-size: 1.8rem;
+    }
+
+    .options {
+      font-size: 1rem;
+    }
+  }
+
   .navbar {
     height: 80px;
     padding: 0 0 0 4px;
@@ -473,6 +490,11 @@ html {
       flex: 4;
       margin: 0 2vw;
       width: 100%;
+      background-color: $white;
+
+      .navbar-nav .nav-link {
+        color: $theme-grey;
+      }
 
       .list {
         display: flex;
