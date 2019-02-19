@@ -4,8 +4,6 @@ html {
   font-family: $base-font-family;
 }
 
-/***** nav *******/
-
 .home {
   letter-spacing: 2px;
   font-weight: 500;
@@ -403,8 +401,16 @@ html {
   }
 }
 
-footer {
+.menu-links {
   background-color: $theme-light-grey;
+
+  .navbar-nav .nav-link {
+    padding-left: 15px;
+  }
+
+  &#main-menu .navbar-nav .nav-link {
+    color: $black;
+  }
 
   a {
     color: $black;
