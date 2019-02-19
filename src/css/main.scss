@@ -463,6 +463,24 @@ footer {
         font-size: 0.7rem;
     }
 
+    #main-menu {
+      flex: 4;
+      margin: 0 2vw;
+      width: 100%;
+
+      .list {
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        flex: 1;
+        max-width: 500px;
+      }
+
+      a {
+        padding: 0;
+      }
+    }
+
     .btn-group {
       flex: 1;
       height: 100%;
@@ -477,18 +495,4 @@ footer {
     }
   }
 
-  #main-menu {
-    flex: 4;
-    margin: 0 2vw;
-
-    ul {
-      justify-content: space-between;
-      width: 100%;
-      max-width: 500px;
-    }
-
-    li a {
-      padding: 0;
-    }
-  }
 }
