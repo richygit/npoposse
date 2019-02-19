@@ -25,7 +25,7 @@ html(lang='en')
 
   body.home
     header
-      nav.navbar.navbar-light
+      nav.navbar.navbar-light.navbar-expand-md
         a.navbar-brand(href="/")
           img(src="images/logo.png", alt="logo")
           .tagline
@@ -36,18 +36,23 @@ html(lang='en')
           span.navbar-toggler-icon
 
         .collapse.navbar-collapse#main-menu
-          ul.navbar-nav.mr-auto
-            li.nav-item.active
-              a.nav-link(href="/")
-                | Home
-                span.sr-only (current)
-            li.nav-item.active
-              a.nav-link(href="#") news
-            li.nav-item.active
-              a.nav-link(href="#") about us
+          .menu-inner
+            ul.navbar-nav.mr-auto
+              li.nav-item.active
+                a.nav-link(href="/")
+                  | ニュース
+                  span.sr-only (current)
+              li.nav-item
+                a.nav-link(href="#") POSSEについて
+              li.nav-item
+                a.nav-link(href="#") 相談窓口
+              li.nav-item
+                a.nav-link(href="#") お問い合わせ
+              li.nav-item
+                a.nav-link(href="#") POSSEを支援する
         .btn-group(role="toolbar", aria-label="生活相談, 労働相談")
-          a(href="#").counselling.btn 労働相談
-          a(href="#").consultation.btn 生活相談
+          a(href="#").counselling.btn.align-middle 労働相談
+          a(href="#").consultation.btn.align-middle 生活相談
 
     .container-fluid
       section.marquee
