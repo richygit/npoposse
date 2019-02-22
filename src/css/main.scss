@@ -337,6 +337,7 @@ html {
     font-weight: 300;
     letter-spacing: normal;
     margin-top: 9px;
+    line-height: 1.8rem;
   }
   .btn.btn-primary {
     background-color: $theme-light-grey;
@@ -381,17 +382,19 @@ html {
 
 .banners {
   background-color: $theme-light-grey;
-  padding: 20px;
-  padding-bottom: 40px;
+  padding: 20px 0 40px 0;
   
   .banner {
     margin-bottom: 20px;
     width: 100%;
   }
+}
+
+.contact-info {
+  background-color: $theme-light-grey;
+  padding-bottom: 40px;
 
   .logo {
-    margin-top: 40px;
-
     img {
       width: 116px;
     }
@@ -408,8 +411,13 @@ html {
   }
 }
 
+.bg-wrapper {
+  background-color: #f2f5f4;
+}
+
 .menu-links {
   background-color: $theme-light-grey;
+  margin: 0 -15px;
 
   .navbar-nav .nav-link {
     padding-left: 15px;
@@ -451,6 +459,10 @@ html {
       @include window-link-icon;
       margin-left: 12px;
     }
+  }
+
+  .col-md {
+    padding: 0;
   }
 
   .centre-text .copyright {
@@ -606,4 +618,37 @@ html {
     }
   }
 
+  .banners {
+    padding: 40px 0;
+  }
+
+  .contact-info {
+    .logo {
+      margin-top: 0;
+    }
+  }
+  
+  .menu-links {
+    ul {
+      font-size: 0.8rem;
+
+      li {
+        margin-bottom: 9px;
+      }
+      a {
+        background-color: inherit;
+        padding: 0;
+        margin-bottom: 10px;
+      }
+    }
+    .sub-menu {
+      margin-bottom: 45px;
+      
+      a {
+        border: 0;
+        font-size: 0.8rem;
+        margin-bottom: 0;
+      }
+    }
+  }
 }

@@ -166,82 +166,95 @@ html(lang='en')
           | 多くの若者の働き方や生活を改善するために、
           br
           | ぜひご協力ください。
-        .container
         .buttons.row
           a(href="#").btn.btn-primary.col-md 募金で支援する
           a(href="#").btn.btn-primary.col-md 会員活動で支援する
           a(href="#").btn.btn-primary.window.col-md ボランティアに参加する
-      .banners
-        a(href="#")
-          img(src="images/posse_bnr.png", alt="posse magazine").img.banner
-        a(href="#")
-          img(src="images/shigoto_bnr.png", alt="work report").img.banner
-        .logo
-          img(src="images/logo.png", alt="npo posse logo").img
-        .address
-          span.company-number 06-0000-0000
-          | 〒155-0031
-          br
-          | 東京都世田谷区北沢4-17-15
-          br
-          | ローゼンハイム下北沢201
-      footer.menu-links
-        ul
-          a(href="#") 
-            li TOP
-          a(href="#") 
-            li ニュース
-          a(href="#") 
-            li POSSEについて
-          ul.sub-menu
-            a(href="#")
-              li 活動内容
-            a(href="#")
-              li 解決事例
-            a(href="#")
-              li 相談の流れ・よくある質問
-          a(href="#") 
-            li 相談窓口
-          ul.sub-menu
-            a(href="#")
-              li 労働相談
-            a(href="#")
-              li 生活相談
-          a(href="#") 
-            li お問い合わせ
-          a(href="#") 
-            li POSSEを支援する
-          ul.sub-menu
-            a(href="#")
-              li 募金で支援する
-            a(href="#")
-              li 会員活動で支援する
-            a(href="#")
-              li ボランティアに参加する
-          a(href="#") 
-            li その他
-          ul.sub-menu
-            a(href="#")
-              li 取材・講演依頼について
-            a(href="#")
-              li 組織図・賛同人
-            a(href="#")
-              li メディア報道
-            a(href="#")
-              li 雑誌POSSE
-          a(href="#") 
-            li 関連リンク
-          ul.sub-menu
-            a(href="#")
-              li.window-icon 就職活動のための法律ガイド
-            a(href="#")
-              li.window-icon NPO法人POSSE解雇リストラ相談センター
-            a(href="#")
-              li.window-icon NPO法人POSSE奨学金Navi
-            a(href="#")
-              li.window-icon 残業代請求サポートセンター
-        .centre-text
-          .copyright 
-            | ©Posse
-            br
-            | PosseはNPO法人です。特定の宗教・政党との関係はありません。
+      .bg-wrapper
+        .container
+          .banners.row
+            a(href="#").col-md
+              img(src="images/posse_bnr.png", alt="posse magazine").img.banner
+            a(href="#").col-md
+              img(src="images/shigoto_bnr.png", alt="work report").img.banner
+        .container.contact
+          .row
+            .contact-info.col-md-4
+              .logo
+                img(src="images/logo.png", alt="npo posse logo").img
+              .address
+                span.company-number 06-0000-0000
+                | 〒155-0031
+                br
+                | 東京都世田谷区北沢4-17-15
+                br
+                | ローゼンハイム下北沢201
+            footer.menu-links.col-md-8
+              .container
+                .row
+                  ul.col-md
+                    li 
+                      a(href="#") TOP
+                    li
+                      a(href="#") ニュース
+                    li
+                      a(href="#") POSSEについて
+                    li
+                      ul.sub-menu
+                        li
+                          a(href="#") 活動内容
+                        li
+                          a(href="#") 解決事例
+                        li
+                          a(href="#") 相談の流れ・よくある質問
+                  ul.col-md
+                    li
+                      a(href="#") 相談窓口
+                    li
+                      ul.sub-menu
+                        li
+                          a(href="#") 労働相談
+                        li
+                          a(href="#") 生活相談
+                    li
+                      a(href="#") お問い合わせ
+                    li
+                      a(href="#") POSSEを支援する
+                    li
+                      ul.sub-menu
+                        li
+                          a(href="#") 募金で支援する
+                        li
+                          a(href="#") 会員活動で支援する
+                        li
+                          a(href="#") ボランティアに参加する
+                  ul.col-md
+                    li
+                      a(href="#") その他
+                    li
+                      ul.sub-menu
+                        li
+                          a(href="#") 取材・講演依頼について
+                        li
+                          a(href="#") 組織図・賛同人
+                        li
+                          a(href="#") メディア報道
+                        li
+                          a(href="#") 雑誌POSSE
+                    li
+                      a(href="#") 関連リンク
+                    li
+                      ul.sub-menu
+                        li
+                          a(href="#").window-icon 就職活動のための法律ガイド
+                        li
+                          a(href="#").window-icon NPO法人POSSE解雇リストラ相談センター
+                        li
+                          a(href="#").window-icon NPO法人POSSE奨学金Navi
+                        li
+                          a(href="#").window-icon 残業代請求サポートセンター
+              .centre-text
+                .copyright 
+                  | ©Posse
+                  br
+                  | PosseはNPO法人です。特定の宗教・政党との関係はありません。
