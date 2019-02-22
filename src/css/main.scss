@@ -417,7 +417,7 @@ html {
 
 .menu-links {
   background-color: $theme-light-grey;
-  margin: 0 -15px;
+  padding: 0;
 
   .navbar-nav .nav-link {
     padding-left: 15px;
@@ -464,18 +464,18 @@ html {
   .col-md {
     padding: 0;
   }
+}
 
-  .centre-text .copyright {
-    width: 100%;
-  }
+.centre-text .copyright {
+  width: 100%;
+}
 
-  .copyright {
-    background-color: white;
-    padding: 10px 20px;
-    font-size: 0.7rem;
-    color: $theme-grey;
-    font-weight: 300;
-  }
+.copyright {
+  background-color: white;
+  padding: 10px 20px;
+  font-size: 0.6rem;
+  color: $theme-grey;
+  font-weight: 300;
 }
 
 // Medium devices (tablets, 768px and up)
@@ -641,6 +641,7 @@ html {
         margin-bottom: 10px;
       }
     }
+
     .sub-menu {
       margin-bottom: 45px;
       
