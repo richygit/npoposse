@@ -545,4 +545,65 @@ html {
     }
   }
 
+  .about {
+    background: url("/images/about-md.png") center top no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    padding-left: 5%;
+    
+    .body {
+      margin: 0;
+    }
+  }
+
+  .links {
+    max-width: $col-width;
+    margin: 0 auto;
+
+    .row {
+      margin: 20px;
+    }
+
+    .links-container {
+      margin: 0;
+    }
+
+    .links-container + .links-container {
+      margin-left: 20px;
+    }
+  }
+  
+  .latest {
+    max-width: $col-width;
+    margin: 0 auto;
+    .btn {
+      width: 300px;
+      display: block;
+    }
+  }
+
+  .news {
+    .lead {
+      float: left;
+      width: 225px;
+    }
+
+    .date {
+      display: inline-block;
+      min-width: 67px;
+    }
+
+    .content {
+      padding-top: 6px;
+    }
+  }
+
+  .support {
+    .buttons {
+      .btn + .btn {
+        margin-left: 20px;
+      }
+    }
+  }
+
 }
