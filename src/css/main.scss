@@ -25,8 +25,7 @@ html {
   }
 }
 
-.btn.btn-primary.window {
-  &::after {
+@mixin window-link-icon {
     content: '';
     background: url(/images/window.png) no-repeat center center;
     display: inline-block;
@@ -34,6 +33,11 @@ html {
     height: 12px;
     background-size: 12px;
     vertical-align: baseline;
+}
+
+.btn.btn-primary.window {
+  &::after {
+    @include window-link-icon;
   }
 }
 
@@ -431,6 +435,21 @@ html {
       padding: 20px;
       margin-bottom: 1px;
       background-color: $white;
+    }
+  }
+
+  .sub-menu {
+    a {
+      background-color: $theme-light-grey;
+      border: 1px solid #fff;
+      border-width: 0 0 1px 0;
+      color: $theme-grey;
+      font-weight: 300;
+      font-size: 1rem;
+    }
+    .window-icon::after {
+      @include window-link-icon;
+      margin-left: 12px;
     }
   }
 
