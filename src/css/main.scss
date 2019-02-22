@@ -148,18 +148,23 @@ html {
   }
 }
 
+.dovetail-container {
+  position: relative;
+  z-index: 1;
+}
+
+.dovetail {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent; 
+  border-right: 20px solid transparent; 
+  border-top: 20px solid $white;
+  margin: 0 auto -20px auto;
+}
+
 .core-function {
   color: $white;
-  padding-bottom: 50px;
-
-  .dovetail {
-    width: 0; 
-    height: 0; 
-    border-left: 20px solid transparent; 
-    border-right: 20px solid transparent; 
-    border-top: 20px solid $white;
-    margin: 0 auto 20px auto;
-  }
+  padding: 50px 0;
 
   .main {
     margin-bottom: 5px;
@@ -172,7 +177,7 @@ html {
     img {
       display: inline-block;
       vertical-align: text-bottom;
-      width: 60px;
+      width: 55px;
     }
     ul {
       display: inline-block;
@@ -208,20 +213,18 @@ html {
 }
 
 .consultation {
-  .main {
-    padding-top: 40px;
-  }
   background-color: $theme-light-green;
 }
 
 .about {
-  padding-top: 20px;
   font-weight: 600;
+  background: url("/images/about.png") center bottom no-repeat;
+  background-size: contain;
+  padding: 40px 0 70vw 0;
 
   .main {
     font-size: 2.1rem;
     padding: 0 20px;
-    margin: 30px 0;
   }
   .body {
     padding: 0 20px;
