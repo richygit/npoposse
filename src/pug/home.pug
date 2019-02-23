@@ -137,21 +137,20 @@ html(lang='en')
         .centre-text 
           .title 最新情報
         .separator
-        .news
-          .lead
-            span.date 2018.6.9
-            span.headline メディア掲載
-          .content 週刊読書人ウェブ 栗原耕平(エキタス)+今野晴貴(POSSE)+雨宮処凜(反貧困ネットワーク世話人)=鼎談　＃最賃１５００円に
-        .news
-          .lead
-            span.date 2018.6.11
-            span.headline イベント
-          .content 6月27日（水）学生向けシンポジウム「過労死社会を変えるために」を開催します。
-        .news
-          .lead
-            span.date 2018.6.20 
-            span.headline お知らせ
-          .content 『生活相談Q&A』ページを開設しました。
+        .row
+          .col-md
+            .news
+              span.date 2018.6.9
+              span.headline メディア掲載
+              .content 週刊読書人ウェブ 栗原耕平(エキタス)+今野晴貴(POSSE)+雨宮処凜(反貧困ネットワーク世話人)=鼎談　＃最賃１５００円に
+            .news
+              span.date 2018.6.11
+              span.headline イベント
+              .content 6月27日（水）学生向けシンポジウム「過労死社会を変えるために」を開催します。
+            .news
+              span.date 2018.6.20 
+              span.headline お知らせ
+              .content 『生活相談Q&A』ページを開設しました。
         .btn-container
           a(href="#").btn.btn-primary 詳しく見る
       .support.centre-text
@@ -165,10 +164,14 @@ html(lang='en')
           | 多くの若者の働き方や生活を改善するために、
           br
           | ぜひご協力ください。
-        .buttons.row
-          a(href="#").btn.btn-primary.col-md 募金で支援する
-          a(href="#").btn.btn-primary.col-md 会員活動で支援する
-          a(href="#").btn.btn-primary.window.col-md ボランティアに参加する
+        .container
+          .buttons.row
+            .col-md
+              a(href="#").btn.btn-primary 募金で支援する
+            .col-md
+              a(href="#").btn.btn-primary 会員活動で支援する
+            .col-md
+              a(href="#").btn.btn-primary.window ボランティアに参加する
       .bg-wrapper
         .container
           .banners.row
