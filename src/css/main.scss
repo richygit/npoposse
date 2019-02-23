@@ -116,14 +116,16 @@ html {
 
     .main {
       font-size: 7vw;
-      margin-bottom: 10px;
     }
     .tagline {
       width: 80%;
-      font-size: 3vw;
-      line-height: 4vw;
+      font-size: 1.7vw;
       font-weight: 400;
       text-shadow: 0px 0px 16px #999;
+
+      br {
+        display: none;
+      }
     }
   }
 }
@@ -143,7 +145,7 @@ html {
   margin: 0 auto -15px auto;
 }
 
-.contact {
+.contact-us {
   margin-bottom: 40px;
 
   .title {
@@ -497,10 +499,12 @@ html {
     top: -21px;
   }
 
-  .contact {
+  .contact-us {
+    margin: 25px 0 60px;
+
     .title {
       font-weight: 500;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
     }
 
     .options {
@@ -621,6 +625,11 @@ html {
   }
 
   .support {
+    padding: 80px 0 40px 0;
+
+    .title {
+      font-size: 2rem;
+    }
     .buttons {
       .btn + .btn {
         margin-left: 20px;
