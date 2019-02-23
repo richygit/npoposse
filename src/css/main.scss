@@ -183,6 +183,8 @@ html {
   .details {
     margin: 0 auto;
     width: 70%;
+    max-width: 260px;
+
     img {
       display: inline-block;
       vertical-align: text-bottom;
@@ -508,7 +510,7 @@ html {
 
   .navbar {
     height: 80px;
-    padding: 0 0 0 4px;
+    padding: 0 0 0 10px;
 
     .navbar-brand {
       flex: 1;
