@@ -1,30 +1,220 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Your page title</title>
-
-  <!--[if lt IE 9]>
-      <link rel="stylesheet" href="css/grid-old-ie.css">
-      <link rel="stylesheet" href="css/app-old-ie.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-      <link rel="stylesheet" href="css/grid.css">
-      <link rel="stylesheet" href="css/app.css">
-  <!--<![endif]-->
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-  <!--[if lte IE 8]>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
-<![endif]-->
-<!--[if gt IE 8]><!-->
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
-<!--<![endif]-->
-</head>
-<body>
-    <!--
-    Your HTML goes here. Visit purecss.io/layouts/ for some sample HTML code.
-    -->
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!-- TODO implement in wordpress-->
+    <meta property="og:title" content="European Travel Destinations">
+    <meta property="og:description" content="Offering tour packages for individuals or groups.">
+    <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
+    <meta property="og:url" content="http://euro-travel-example.com/index.htm">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="European Travel, Inc.">
+    <meta name="twitter:image:alt" content="Alt text for image">
+    <title>npoposse homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+  <body class="home">
+    <header>
+      <nav class="navbar navbar-light navbar-expand-md"><a class="navbar-brand" href="/"><img src="images/logo.png" alt="logo">
+          <div class="tagline">若者の「働くこと」に関する<br>様々な問題に取り組むNPO法人</div></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse menu-links" id="main-menu">
+          <ul class="list navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="/">ニュース<span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#">POSSEについて</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">相談窓口</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">お問い合わせ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">POSSEを支援する</a></li>
+          </ul>
+        </div>
+        <div class="btn-group" role="toolbar" aria-label="生活相談, 労働相談"><a class="counselling btn align-middle" href="#">労働相談</a><a class="consultation btn align-middle" href="#">生活相談</a></div>
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <section class="marquee"><img src="images/top-main.png" alt="top main photo">
+        <div class="centre-text">
+          <div class="main">普通に働ける社会へ</div>
+          <div class="tagline">
+             POSSEは若者の「働くこと」に関する <br class="d-xs-block d-md-none">様々な問題に取り組むNPO法人です</div>
+        </div>
+      </section>
+      <div class="lead-bar"></div>
+      <section class="contact-us centre-text">
+        <div class="title">お気軽にご相談ください</div>
+        <div class="options">相談無料  /  秘密厳守  /  電話・メールOK</div>
+      </section>
+      <div class="dovetail-container">
+        <div class="dovetail"></div>
+      </div>
+      <div class="row">
+        <section class="core-function counselling col-md">
+          <div class="centre-text"> 
+            <div class="main">労働相談</div>
+          </div>
+          <div class="details"><img src="images/counselling.png" alt="counselling icon">
+            <ul>
+              <li> <span>残業代が払われない </span></li>
+              <li> <span>パワハラ、嫌がらせ </span></li>
+              <li> <span>雇用を打ち切られた</span></li>
+            </ul><a class="btn btn-primary" href="#">労働について相談したい</a>
+          </div>
+        </section>
+        <section class="core-function consultation col-md">
+          <div class="centre-text"> 
+            <div class="main">生活相談</div>
+          </div>
+          <div class="details"><img src="images/consultation.png" alt="counselling icon">
+            <ul>
+              <li> <span>金銭的に生活が苦しい</span></li>
+              <li> <span>奨学金が返せない</span></li>
+              <li> <span>生活保護を受けたい</span></li>
+            </ul><a class="btn btn-primary" href="#">生活について相談したい</a>
+          </div>
+        </section>
+      </div>
+      <section class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md">
+              <div class="main">POSSE について</div>
+              <div class="body">すべての人生はかけがえのないもの。<br>そして、すべての人生はもっと輝くことが できると思う。 <br>だから私たちは⽣み出したい。<br>探し求めている情報との<strong>出会い</strong>を。<br>感動を共にできる仲間との<strong>つながり</strong>を。<br>毎日を豊かにする<strong>アイデア</strong>を。</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="links container">
+        <div class="row">
+          <div class="links-container col-md">
+            <div class="centre-text">
+              <div class="circle-icon"><img class="img" src="images/icon-activity.png" alt="icon activity content"></div><a class="link" href="#">活動内容</a>
+            </div>
+            <div class="content">POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。</div>
+          </div>
+          <div class="links-container col-md">
+            <div class="centre-text">
+              <div class="circle-icon"><img class="icon-resolution img" src="images/icon-resolution.png" alt="icon case resolution"></div><a class="link" href="#">解決事例</a>
+            </div>
+            <div class="content">POSSEには年間2000件以上の労働・生活相談が寄せらています。解決事例の一部をご紹介します。</div>
+          </div>
+          <div class="links-container col-md">
+            <div class="centre-text">
+              <div class="circle-icon"><img class="icon-qa img" src="images/icon-qa.png" alt="icon question and answer"></div><a class="link" href="#">相談の流れ・よくある質問</a>
+            </div>
+            <div class="content">相談の流れとよくある質問についてご紹介します。</div>
+          </div>
+        </div>
+      </section>
+      <div class="container latest">
+        <div class="centre-text"> 
+          <div class="title">最新情報</div>
+        </div>
+        <div class="separator"></div>
+        <div class="row">
+          <div class="col-md">
+            <div class="news"><span class="date">2018.6.9</span><span class="headline">メディア掲載</span>
+              <div class="content">週刊読書人ウェブ 栗原耕平(エキタス)+今野晴貴(POSSE)+雨宮処凜(反貧困ネットワーク世話人)=鼎談　＃最賃１５００円に</div>
+            </div>
+            <div class="news"><span class="date">2018.6.11</span><span class="headline">イベント</span>
+              <div class="content">6月27日（水）学生向けシンポジウム「過労死社会を変えるために」を開催します。</div>
+            </div>
+            <div class="news"><span class="date">2018.6.20 </span><span class="headline">お知らせ</span>
+              <div class="content">『生活相談Q&A』ページを開設しました。</div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-container"><a class="btn btn-primary" href="#">詳しく見る</a></div>
+      </div>
+      <div class="support centre-text">
+        <div class="title">
+           POSSEの活動を<br class="d-xs-block d-md-none">支援しませんか</div>
+        <div class="content">
+           ご寄付や会員登録、ボランティアを募集しています。<br>多くの若者の働き方や生活を改善するために、<br class="d-xs-block d-md-none">ぜひご協力ください。</div>
+        <div class="container">
+          <div class="buttons row">
+            <div class="col-md"><a class="btn btn-primary" href="#">募金で支援する</a></div>
+            <div class="col-md"><a class="btn btn-primary" href="#">会員活動で支援する</a></div>
+            <div class="col-md"><a class="btn btn-primary window" href="#">ボランティアに参加する</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-wrapper">
+        <div class="container">
+          <div class="banners row"><a class="col-md" href="#"><img class="img banner" src="images/posse_bnr.png" alt="posse magazine"></a><a class="col-md" href="#"><img class="img banner" src="images/shigoto_bnr.png" alt="work report"></a></div>
+        </div>
+        <div class="container contact">
+          <div class="row">
+            <div class="contact-info col-md-4">
+              <div class="logo"><img class="img" src="images/logo.png" alt="npo posse logo"></div>
+              <div class="address"><span class="company-number">06-0000-0000</span>〒155-0031<br>東京都世田谷区北沢4-17-15<br>ローゼンハイム下北沢201</div>
+            </div>
+            <footer class="menu-links col-md-8">
+              <div class="container">
+                <div class="row">
+                  <ul class="col-md">
+                    <li> <a href="#">TOP</a></li>
+                    <li><a href="#">ニュース</a></li>
+                    <li><a href="#">POSSEについて</a></li>
+                    <li>
+                      <ul class="sub-menu">
+                        <li><a href="#">活動内容</a></li>
+                        <li><a href="#">解決事例</a></li>
+                        <li><a href="#">相談の流れ・よくある質問</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="col-md">
+                    <li><a href="#">相談窓口</a></li>
+                    <li>
+                      <ul class="sub-menu">
+                        <li><a href="#">労働相談</a></li>
+                        <li><a href="#">生活相談</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">お問い合わせ</a></li>
+                    <li><a href="#">POSSEを支援する</a></li>
+                    <li>
+                      <ul class="sub-menu">
+                        <li><a href="#">募金で支援する</a></li>
+                        <li><a href="#">会員活動で支援する</a></li>
+                        <li><a href="#">ボランティアに参加する</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="col-md">
+                    <li><a href="#">その他</a></li>
+                    <li>
+                      <ul class="sub-menu">
+                        <li><a href="#">取材・講演依頼について</a></li>
+                        <li><a href="#">組織図・賛同人</a></li>
+                        <li><a href="#">メディア報道</a></li>
+                        <li><a href="#">雑誌POSSE</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">関連リンク</a></li>
+                    <li>
+                      <ul class="sub-menu">
+                        <li><a class="window-icon" href="#">就職活動のための法律ガイド</a></li>
+                        <li><a class="window-icon" href="#">NPO法人POSSE解雇リストラ相談センター</a></li>
+                        <li><a class="window-icon" href="#">NPO法人POSSE奨学金Navi</a></li>
+                        <li><a class="window-icon" href="#">残業代請求サポートセンター</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="centre-text">
+          <div class="copyright">
+             ©Posse<br>PosseはNPO法人です。特定の宗教・政党との関係はありません。</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
