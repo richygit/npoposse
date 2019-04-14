@@ -704,3 +704,15 @@ html {
     }
   }
 }
+
+
+@media (min-width: 768px) and (max-width: 850px) {
+  #main-menu .navbar-nav .nav-link {
+    letter-spacing: 0px;
+    font-size: 0.6rem;
+  }
+
+  .navbar .btn-group .btn {
+    letter-spacing: 0px;
+  }
+}
