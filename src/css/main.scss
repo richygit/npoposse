@@ -244,7 +244,7 @@ html {
 
 .about {
   font-weight: 600;
-  background: url("/images/about.jpg") center bottom no-repeat;
+  background: url("/images/home/about.jpg") center bottom no-repeat;
   background-size: contain;
   padding: 40px 0 40vw 0;
 
@@ -709,6 +709,20 @@ html {
   }
 }
 
+.counselling-top {
+  .main {
+    color: $white;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .marquee {
+    background: url('/images/counselling/counselling-marquee-sm.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 180px;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 850px) {
   #main-menu .navbar-nav .nav-link {
