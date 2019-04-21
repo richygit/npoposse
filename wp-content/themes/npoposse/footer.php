@@ -5,9 +5,9 @@
            ご寄付や会員登録、ボランティアを募集しています。<br>多くの若者の働き方や生活を改善するために、<br class="d-xs-block d-md-none">ぜひご協力ください。</div>
         <div class="container">
           <div class="buttons row">
-            <div class="col-md"><a class="btn btn-primary" href="#">募金で支援する</a></div>
-            <div class="col-md"><a class="btn btn-primary" href="#">会員活動で支援する</a></div>
-            <div class="col-md"><a class="btn btn-primary window" href="#">ボランティアに参加する</a></div>
+            <div class="col-md"><a class="green btn btn-primary" href="#">募金で支援する</a></div>
+            <div class="col-md"><a class="green btn btn-primary" href="#">会員活動で支援する</a></div>
+            <div class="col-md"><a class="green btn btn-primary window" href="#">ボランティアに参加する</a></div>
           </div>
         </div>
       </div>
@@ -88,4 +88,3 @@
     <?php wp_footer(); ?>
   </body>
 </html>
-

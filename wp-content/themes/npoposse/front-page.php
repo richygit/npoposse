@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-      <section class="marquee"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/top-main.jpg" alt="top main photo">
+      <section class="marquee"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/home/top-main.jpg" alt="top main photo">
         <div class="centre-text">
           <div class="main">普通に働ける社会へ</div>
           <div class="tagline">
@@ -20,7 +20,7 @@
           <div class="centre-text"> 
             <div class="main">労働相談</div>
           </div>
-          <div class="details"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/counselling.png" alt="counselling icon">
+          <div class="details"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/home/counselling.png" alt="counselling icon">
             <ul>
               <li> <span>残業代が払われない </span></li>
               <li> <span>パワハラ、嫌がらせ </span></li>
@@ -32,7 +32,7 @@
           <div class="centre-text"> 
             <div class="main">生活相談</div>
           </div>
-          <div class="details"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/consultation.png" alt="counselling icon">
+          <div class="details"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/home/consultation.png" alt="counselling icon">
             <ul>
               <li> <span>金銭的に生活が苦しい</span></li>
               <li> <span>奨学金が返せない</span></li>
@@ -52,7 +52,6 @@
         </div>
       </section>
       <section class="links container">
-
         <?php get_template_part( 'links', get_post_format() ); ?>
 
       </section>
