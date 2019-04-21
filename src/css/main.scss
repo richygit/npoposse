@@ -27,7 +27,7 @@ html {
 
 @mixin window-link-icon {
     content: '';
-    background: url(/images/window.png) no-repeat center center;
+    background: url('/images/window.png') no-repeat center center;
     display: inline-block;
     width: 12px;
     height: 12px;
@@ -244,7 +244,7 @@ html {
 
 .about {
   font-weight: 600;
-  background: url("/images/home/about.jpg") center bottom no-repeat;
+  background: url('/images/home/about.jpg') center bottom no-repeat;
   background-size: contain;
   padding: 40px 0 40vw 0;
 
@@ -835,7 +835,7 @@ html {
   }
 
   .about {
-    background: url("/images/about-md.png") center top no-repeat;
+    background: url('/images/about-md.png') center top no-repeat;
     background-size: cover;
     padding: 50px 0;
     
