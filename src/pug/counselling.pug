@@ -61,69 +61,76 @@ html(lang='en')
                 | 労働相談
           .marquee
 
-        section.container.opener
-          .row
-            .col-md
-              .centre-text
-                .lead
-                  | 労働トラブルについて NPO法人POSSEでは 相談を無料で受け付けています。 
-                .lead-text
-                  p
-                    | 残業代が支払われない | 有給休暇がとれない | 休みがとれない
-                  p
-                    | セクハラ、パワハラ、嫌がらせをされた | 仕事をやめさせられそうになっている | 仕事をやめさせてもらえない
-                  p
-                    | そのほか、どんなことでも構いません。
-                  p
-                    | ひとりで悩む前に、ぜひためしに一度、お気軽にご連絡ください。
-              a.green.btn.btn-primary(href="#")
-                | 相談フォームに進む
+        section.opener
+          .container
+            .row
+              .col-md
+                .centre-text
+                  .lead
+                    | 労働トラブルについて
+                    br
+                    | NPO法人POSSEでは
+                    br
+                    | 相談を無料で受け付けています。 
+                  .lead-text
+                    p
+                      | 残業代が支払われない | 有給休暇がとれない | 休みがとれない
+                    p
+                      | セクハラ、パワハラ、嫌がらせをされた | 仕事をやめさせられそうになっている | 仕事をやめさせてもらえない
+                    p
+                      | そのほか、どんなことでも構いません。
+                    p
+                      | ひとりで悩む前に、ぜひためしに一度、お気軽にご連絡ください。
+                a.green.btn.btn-primary(href="#")
+                  | 相談フォームに進む
+
         section.solutions
-          .row.head
-            .col-md
-              .centre-text
-                .lead
-                  | 解決のためにPOSSEができること
-              .separator
-          .row
-            .col-md
-              .centre-text
-                .icon.circle-icon
-                  img.img(src="images/counselling/advice.png", alt="book icon")
-                .lead
-                  | 法律の知識、
-                  br
-                  | 解決法のアドバイス
-              .container
-                .row
-                  .col-md
-                    .content 
-                      | ご連絡いただいた内容を元に、相談内容に応じた法律の知識や、解決の仕方をアドバイスいたします。
-            .col-md
-              .centre-text
-                .icon.circle-icon
-                  img.img(src="images/counselling/support.png", alt="raised hands icon")
-                .lead
-                  | 解決のための
-                  br
-                  | 具体的なサポート
-              .container
-                .row
-                  .col-md
-                    .content 
-                      | 職場がなかなか適切な対応をとらないケースや、あまりに悪質なケースは、NPO法人POSSEのスタッフが解決のための具体的なサポートをいたします。
-            .col-md
-              .centre-text
-                .icon.circle-icon
-                  img.img(src="images/counselling/help.png", alt="smart lady icon")
-                .lead
-                  | 専門家の紹介
-              .container
-                .row
-                  .col-md
-                    .content 
-                      | 問題に応じて、ユニオン（労働組合）や弁護士などの専門家を紹介することもあります。
-                  
+          .container
+            .row.head
+              .col-md
+                .centre-text
+                  .lead
+                    | 解決のためにPOSSEができること
+                .separator
+            .row
+              .col-md
+                .centre-text
+                  .icon.circle-icon
+                    img.img(src="images/counselling/advice.png", alt="book icon")
+                  .lead
+                    | 法律の知識、
+                    br
+                    | 解決法のアドバイス
+                .container
+                  .row
+                    .col-md
+                      .content 
+                        | ご連絡いただいた内容を元に、相談内容に応じた法律の知識や、解決の仕方をアドバイスいたします。
+              .col-md
+                .centre-text
+                  .icon.circle-icon
+                    img.img(src="images/counselling/support.png", alt="raised hands icon")
+                  .lead
+                    | 解決のための
+                    br
+                    | 具体的なサポート
+                .container
+                  .row
+                    .col-md
+                      .content 
+                        | 職場がなかなか適切な対応をとらないケースや、あまりに悪質なケースは、NPO法人POSSEのスタッフが解決のための具体的なサポートをいたします。
+              .col-md
+                .centre-text
+                  .icon.circle-icon
+                    img.img(src="images/counselling/help.png", alt="smart lady icon")
+                  .lead
+                    | 専門家の紹介
+                .container
+                  .row
+                    .col-md
+                      .content 
+                        | 問題に応じて、ユニオン（労働組合）や弁護士などの専門家を紹介することもあります。
+                    
         section.experts
           .row
             .col-md
@@ -134,7 +141,10 @@ html(lang='en')
             .row
               .col-md
                 .centre-text
-                  img.img(src="images/counselling/flow-vertical.png", alt="flowchart")
+                  picture
+                    source(srcset="images/counselling/flow-vertical.png", media="(max-width: 768px)")
+                    source(srcset="images/counselling/flow-horizontal.png", media="(min-width: 769px)")
+                    img(src="images/counselling/flow-horizontal.png", alt="flowchart")
           .row
             .col-md
               .centre-text

@@ -610,7 +610,7 @@ html {
       margin: 50px auto;
       font-size: 1.4rem;
     }
-    .img {
+    picture img {
       width: 100%;
     }
 
@@ -941,8 +941,27 @@ html {
       margin-bottom: 8px;
     }
   }
+  
+  .counselling-top {
+    .marquee {
+      /* TODO replace with image set? */
+      background: url('/images/counselling/counselling-marquee.jpg') no-repeat center center;
+      height: 400px;
+      background-size: cover;
+    }
+    .btn.btn-primary {
+      max-width: 300px;
+    }
+    .opener {
+      .lead {
+        font-size: 2rem;
+      }
+    }
+  }
+
 }
 
+//medium size to deal with crowded nav
 @media (min-width: 768px) and (max-width: 850px) {
   #main-menu .navbar-nav .nav-link {
     letter-spacing: 0px;
