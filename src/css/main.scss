@@ -266,6 +266,22 @@ html {
   }
 }
 
+.icon.circle-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+
+  img {
+    width: 40px;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+  }
+}
+
+
+
 .links {
   .links-container {
     background-color: $theme-light-grey;
@@ -283,17 +299,6 @@ html {
 
   .circle-icon {
     background-color: $white;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: relative;
-
-    img {
-      width: 37px;
-      position: absolute;
-      top: 27px;
-      left: 32px;
-    }
   }
 
   .centre-text {
@@ -304,14 +309,8 @@ html {
       color: $black;
       display: block;
 
-      &::after {
-        font-size: 0.8rem;
-        position: relative;
-        top: -3px;
+      &.link-caret::after {
         color: $theme-grey;
-        content: '>';
-        margin-left: 12px;
-        font-weight: 800;
       }
     }
   }
@@ -326,6 +325,25 @@ html {
   }
 }
 
+.link-caret::after {
+  font-size: 0.8rem;
+  position: relative;
+  top: -3px;
+  content: '>';
+  margin-left: 12px;
+  font-weight: 800;
+}
+
+.separator {
+  background-color: $theme-green;
+  margin: 0px auto;
+  display: block;
+  height: 4px;
+  width: 82px;
+  position: relative;
+}
+
+
 .latest {
   .title {
     font-size: 2rem;
@@ -334,12 +352,8 @@ html {
   }
 
   .separator {
-    background-color: $theme-green;
-    margin: 40px auto 60px auto;
-    display: block;
-    height: 4px;
-    width: 82px;
-    position: relative;
+    margin-top: 40px;
+    margin-bottom: 60px;
   }
   .news {
     margin: 25px 12px 12px 12px;
@@ -403,15 +417,16 @@ html {
     padding-bottom: 50px;
   }
   
-  .btn.btn-primary {
-    background-color: $theme-green;
-    color: $white;
-    border-width: 0px;
+}
 
-    &:hover {
-      background-color: darken($theme-green, 7%);
-      border-color: darken($theme-green, 7%);
-    }
+.green.btn.btn-primary {
+  background-color: $theme-green;
+  color: $white;
+  border-width: 0px;
+
+  &:hover {
+    background-color: darken($theme-green, 7%);
+    border-color: darken($theme-green, 7%);
   }
 }
 
@@ -515,6 +530,102 @@ html {
   font-size: 0.6rem;
   color: $theme-grey;
   font-weight: 300;
+}
+
+.counselling-top {
+  .main {
+    color: $white;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .marquee {
+    background: url('/images/counselling/counselling-marquee-sm.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 180px;
+  }
+  .opener {
+    background-color: $theme-light-grey;
+
+    .lead {
+      margin-top: 100px;
+      color: $theme-green;
+      font-weight: 500;
+      font-size: 1.4rem;
+    }
+    .lead-text {
+      margin-top: 25px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      line-height: 1.5rem;
+    }
+    .btn.btn-primary {
+      width: 90%;
+      margin: 30px auto 100px auto;
+      display: block;
+    }
+  }
+
+  .solutions {
+    .head {
+      .lead {
+        font-weight: 500;
+        font-size: 2.2rem;
+        width: 80%;
+        display: block;
+        margin: 100px auto 30px auto;
+        color: $black;
+      }
+      .lead-bar {
+      }
+    }
+
+    .lead {
+      margin-top: 30px;
+      font-size: 1.4rem;
+      color: $theme-green;
+      font-weight: 500;
+    }
+
+    .content {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: $theme-grey;
+      font-weight: 400;
+      line-height: 1.5rem;
+    }
+
+    .circle-icon {
+      background-color: $theme-green;
+      margin-top: 50px;
+    }
+  }
+
+  .experts {
+    margin-bottom: 70px;
+
+    .lead {
+      font-weight: 500;
+      margin: 50px auto;
+      font-size: 1.4rem;
+    }
+    .img {
+      width: 100%;
+    }
+
+    .bottom-link {
+      margin-top: 40px;
+    } 
+
+    .link {
+      font-size: 0.8rem;
+      color: $theme-grey;
+      &::after {
+        vertical-align: text-top;
+      }
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -706,21 +817,6 @@ html {
     li {
       margin-bottom: 8px;
     }
-  }
-}
-
-.counselling-top {
-  .main {
-    color: $white;
-    font-size: 2rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .marquee {
-    background: url('/images/counselling/counselling-marquee-sm.jpg') no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    min-height: 180px;
   }
 }
 

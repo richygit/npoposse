@@ -27,7 +27,7 @@ html(lang='en')
     header
       nav.navbar.navbar-light.navbar-expand-md
         a.navbar-brand(href="/")
-          img(src="images/logo.png", alt="logo")
+          img(src="images/counselling/logo.png", alt="logo")
           .tagline
             | 若者の「働くこと」に関する
             br
@@ -61,60 +61,86 @@ html(lang='en')
                 | 労働相談
           .marquee
 
-        section.container
+        section.container.opener
           .row
             .col-md
-              .lead.centre-text
-                | 労働トラブルについて NPO法人POSSEでは 相談を無料で受け付けています。 
-              .lead-text
-                | 残業代が支払われない | 有給休暇がとれない | 休みがとれない セクハラ、パワハラ、嫌がらせをされた | 仕事をやめさせられ
-              a.btn-btn-primary(href="#")
+              .centre-text
+                .lead
+                  | 労働トラブルについて NPO法人POSSEでは 相談を無料で受け付けています。 
+                .lead-text
+                  p
+                    | 残業代が支払われない | 有給休暇がとれない | 休みがとれない
+                  p
+                    | セクハラ、パワハラ、嫌がらせをされた | 仕事をやめさせられそうになっている | 仕事をやめさせてもらえない
+                  p
+                    | そのほか、どんなことでも構いません。
+                  p
+                    | ひとりで悩む前に、ぜひためしに一度、お気軽にご連絡ください。
+              a.green.btn.btn-primary(href="#")
                 | 相談フォームに進む
         section.solutions
+          .row.head
+            .col-md
+              .centre-text
+                .lead
+                  | 解決のためにPOSSEができること
+              .separator
           .row
             .col-md
-              .lead.centre-text
-                | 解決のためにPOSSEができること
-          .row
-            .col-md
               .centre-text
-                .circle-icon
-                  img.img(src="images/icon-book.png", alt="book icon")
+                .icon.circle-icon
+                  img.img(src="images/counselling/advice.png", alt="book icon")
                 .lead
-                  | 法律の知識、解決法のアドバイス
-                .content 
-                  | ご連絡いただいた内容を元に、相談内容に応じた法律の知識や、解決の仕方をアドバイスいたします。
+                  | 法律の知識、
+                  br
+                  | 解決法のアドバイス
+              .container
+                .row
+                  .col-md
+                    .content 
+                      | ご連絡いただいた内容を元に、相談内容に応じた法律の知識や、解決の仕方をアドバイスいたします。
             .col-md
               .centre-text
-                .circle-icon
-                  img.img(src="images/hands.png", alt="raised hands icon")
+                .icon.circle-icon
+                  img.img(src="images/counselling/support.png", alt="raised hands icon")
                 .lead
-                  | 解決のための具体的なサポート
-                .content 
-                  | 職場がなかなか適切な対応をとらないケースや、あまりに悪質なケースは、NPO法人POSSEのスタッフが解決のための具体的なサポートをいたします。
+                  | 解決のための
+                  br
+                  | 具体的なサポート
+              .container
+                .row
+                  .col-md
+                    .content 
+                      | 職場がなかなか適切な対応をとらないケースや、あまりに悪質なケースは、NPO法人POSSEのスタッフが解決のための具体的なサポートをいたします。
             .col-md
               .centre-text
-                .circle-icon
-                  img.img(src="images/smarts.png", alt="smart lady icon")
+                .icon.circle-icon
+                  img.img(src="images/counselling/help.png", alt="smart lady icon")
                 .lead
                   | 専門家の紹介
-                .content 
-                  | 問題に応じて、ユニオン（労働組合）や弁護士などの専門家を紹介することもあります。
+              .container
+                .row
+                  .col-md
+                    .content 
+                      | 問題に応じて、ユニオン（労働組合）や弁護士などの専門家を紹介することもあります。
                   
         section.experts
           .row
             .col-md
               .centre-text
                 .lead
-                  | 専門家の紹介
+                  | 相談の流れ
+          .container
+            .row
+              .col-md
+                .centre-text
+                  img.img(src="images/counselling/flow-vertical.png", alt="flowchart")
           .row
             .col-md
               .centre-text
-                img.img(src="images/flow-vertical.png", alt="flowchart")
-          .row
-            .col-md
-              a.link(href="#", alt="")
-                | 相談の流れについてもっと詳しく
+                .bottom-link
+                  a.link.link-caret(href="#", alt="")
+                    | 相談の流れについてもっと詳しく
 
         section.characteristics
           .row
@@ -124,19 +150,19 @@ html(lang='en')
                   | POSSEの特徴
           .row
             .col-md
-              img.img(src="images/characteristics1.png", alt="characteristics")
+              img.img(src="images/counselling/characteristics1.png", alt="characteristics")
               .lead
                 | POSSEの特徴を伝えられるようなテキストを入れたいです。
               .content
                 | POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。
             .col-md
-              img.img(src="images/characteristics1.png", alt="characteristics")
+              img.img(src="images/counselling/characteristics1.png", alt="characteristics")
               .lead
                 | POSSEの特徴を伝えられるようなテキストを入れたいです。
               .content
                 | POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。
             .col-md
-              img.img(src="images/characteristics1.png", alt="characteristics")
+              img.img(src="images/counselling/characteristics1.png", alt="characteristics")
               .lead
                 | POSSEの特徴を伝えられるようなテキストを入れたいです。
               .content
@@ -153,7 +179,7 @@ html(lang='en')
           .row
             .col-4-md
               a.btn.btn-primary(href="#")
-                img.img(src="images/envelope.png", alt="envelope icon")
+                img.img(src="images/counselling/envelope.png", alt="envelope icon")
                 | 相談フォームに進む
               .note-text 
                 | ※勤務先のＰＣからのご連絡はお控えください。相談員からの返信や通信履歴等から、労働相談をしたことや相談内容が勤務先へ漏れる可能性があります。
@@ -188,19 +214,19 @@ html(lang='en')
             .links-container.col-md
               .centre-text
                 .circle-icon
-                  img.img(src="images/icon-activity.png", alt="icon activity content")
+                  img.img(src="images/counselling/icon-activity.png", alt="icon activity content")
                 a(href="#").link 活動内容
               .content POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。
             .links-container.col-md
               .centre-text
                 .circle-icon
-                  img.icon-resolution.img(src="images/icon-resolution.png", alt="icon case resolution")
+                  img.icon-resolution.img(src="images/counselling/icon-resolution.png", alt="icon case resolution")
                 a(href="#").link 解決事例
               .content POSSEには年間2000件以上の労働・生活相談が寄せらています。解決事例の一部をご紹介します。
             .links-container.col-md
               .centre-text
                 .circle-icon
-                  img.icon-qa.img(src="images/icon-qa.png", alt="icon question and answer")
+                  img.icon-qa.img(src="images/counselling/icon-qa.png", alt="icon question and answer")
                 a(href="#").link 相談の流れ・よくある質問
               .content 相談の流れとよくある質問についてご紹介します。
             
@@ -232,13 +258,13 @@ html(lang='en')
         .container
           .banners.row
             a(href="#").col-md
-              img(src="images/posse_bnr.png", alt="posse magazine").img.banner
+              img(src="images/counselling/posse_bnr.png", alt="posse magazine").img.banner
             a(href="#").col-md
-              img(src="images/shigoto_bnr.png", alt="work report").img.banner
+              img(src="images/counselling/shigoto_bnr.png", alt="work report").img.banner
         .container.contact
           .row
             .contact-info.col-md-4
-              .logo
+              .icon.circle-icon
                 img(src="images/logo.png", alt="npo posse logo").img
               .address
                 span.company-number 06-0000-0000
