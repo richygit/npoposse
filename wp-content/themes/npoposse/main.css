@@ -638,6 +638,9 @@ html {
 .counselling-top .contact-cta .bottom-notes .note-text {
   color: #fff;
 }
+.counselling-top .about {
+  background: none;
+}
 .counselling-top .about .title {
   font-size: 2.3rem;
   font-weight: 500;
