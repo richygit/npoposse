@@ -533,17 +533,14 @@ html {
 }
 
 .counselling-top {
+  .counselling {
+    margin: 0;
+  }
   .main {
     color: $white;
     font-size: 2rem;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-  .marquee {
-    background: url('/images/counselling/counselling-marquee-sm.jpg') no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    min-height: 180px;
   }
   .opener {
     background-color: $theme-light-grey;
@@ -685,6 +682,7 @@ html {
       background: $white;
       padding: 40px;
       margin-bottom: 15px;
+      height: 100%;
 
       .btn.btn-primary {
         background: $theme-green;
@@ -943,18 +941,45 @@ html {
   }
   
   .counselling-top {
-    .marquee {
-      /* TODO replace with image set? */
-      background: url('/images/counselling/counselling-marquee.jpg') no-repeat center center;
-      height: 400px;
-      background-size: cover;
-    }
     .btn.btn-primary {
       max-width: 300px;
     }
     .opener {
       .lead {
         font-size: 2rem;
+      }
+    }
+
+    .contact-cta {
+      .hours {
+        font-size: 0.7rem;
+        width: 70%;
+        padding: 4px;
+      }
+      .phone-no {
+        margin-top: 10px;
+        font-size: 2.7rem;
+      }
+      .phone-sub {
+        margin-top: 10px;
+        
+        .number {
+          display: inline;
+        }
+        .content {
+          display: inline;
+        }
+      }
+      .bottom-notes {
+        margin-top: 20px;
+      }
+    }
+
+    .about {
+      .title {
+        br {
+          display: none;
+        }
       }
     }
   }
