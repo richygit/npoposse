@@ -25,7 +25,7 @@ html {
 
 .btn.btn-primary.window::after {
   content: '';
-  background: url("/images/window.png") no-repeat center center;
+  background: url("/npoposse/images/window.png") no-repeat center center;
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -220,7 +220,7 @@ html {
 
 .about {
   font-weight: 600;
-  background: url("/images/home/about.jpg") center bottom no-repeat;
+  background: url("/npoposse/images/home/about.jpg") center bottom no-repeat;
   background-size: contain;
   padding: 40px 0 40vw 0;
 }
@@ -351,7 +351,7 @@ html {
 }
 
 .support {
-  background: url("/images/support-bg.jpg") no-repeat top center;
+  background: url("/npoposse/images/support-bg.jpg") no-repeat top center;
   background-size: cover;
   color: #fff;
 }
@@ -447,7 +447,7 @@ html {
 }
 .menu-links .sub-menu .window-icon::after {
   content: '';
-  background: url("/images/window.png") no-repeat center center;
+  background: url("/npoposse/images/window.png") no-repeat center center;
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -728,7 +728,7 @@ html {
   }
 
   .about {
-    background: url("/images/home/about.jpg") center top no-repeat;
+    background: url("/npoposse/images/home/about.jpg") center top no-repeat;
     background-size: cover;
     padding: 50px 0;
   }
