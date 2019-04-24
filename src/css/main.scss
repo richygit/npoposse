@@ -282,7 +282,9 @@ html {
 
 
 
-.links {
+.links.container {
+  margin-bottom: 20px;
+  
   .links-container {
     background-color: $theme-light-grey;
     margin: 20px 20px 0 20px;
@@ -532,6 +534,76 @@ html {
   font-weight: 300;
 }
 
+.contact-cta {
+  background: $theme-green;
+  padding: 100px 0;
+
+  .title {
+    color: $white;
+    font-size: 2rem;
+  }
+
+  .content {
+    font-weight: 600;
+    margin: 10px auto 30px auto;
+  }
+  
+  .panel {
+    background: $white;
+    padding: 40px 25px;
+    margin-bottom: 15px;
+    height: 100%;
+
+    .btn.btn-primary {
+      background: $theme-green;
+
+      .icon {
+        width: 30px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .hours {
+    font-size: 0.7rem;
+    font-weight: 600;
+    background: $theme-light-grey;
+  }
+  .phone-no {
+    text-decoration: underline;
+    font-size: 2.1rem;
+    line-height: 3rem;
+    color: $theme-green;
+  }
+  .phone-sub {
+    color: $theme-green;
+    margin-bottom: 30px;
+
+    .content {
+      font-size: 0.7rem;
+      font-weight: 400;
+      line-height: 1.2rem;
+    }
+
+    .number {
+      text-decoration: underline;
+    }
+  }
+
+  ul {
+    font-size: 0.7rem;
+    color: grey;
+    font-weight: 300;
+    letter-spacing: 0;
+    padding-inline-start: 15px;
+  }
+  
+  .bottom-notes .note-text {
+    color: $white;
+  }
+}
+
+
 .counselling-top {
   .counselling {
     margin: 0;
@@ -664,82 +736,141 @@ html {
     }
   }
 
-  .contact-cta {
-    background: $theme-green;
-    padding: 100px 0;
-
-    .title {
-      color: $white;
-      font-size: 2rem;
-    }
-
-    .content {
-      font-weight: 600;
-      margin: 10px auto 30px auto;
-    }
-    
-    .panel {
-      background: $white;
-      padding: 40px;
-      margin-bottom: 15px;
-      height: 100%;
-
-      .btn.btn-primary {
-        background: $theme-green;
-
-        .icon {
-          width: 30px;
-          margin-right: 10px;
-        }
-      }
-    }
-
-    .hours {
-      font-size: 0.6rem;
-      font-weight: 600;
-      background: $theme-light-grey;
-    }
-    .phone-no {
-      text-decoration: underline;
-      font-size: 1.8rem;
-      line-height: 3rem;
-      color: $theme-green;
-    }
-    .phone-sub {
-      color: $theme-green;
-      margin-bottom: 30px;
-
-      .content {
-        font-size: 0.7rem;
-        font-weight: 400;
-        line-height: 1.2rem;
-      }
-
-      .number {
-        text-decoration: underline;
-      }
-    }
-
-    ul {
-      font-size: 0.7rem;
-      color: grey;
-      font-weight: 300;
-      letter-spacing: 0;
-      padding-inline-start: 15px;
-    }
-    
-    .bottom-notes .note-text {
-      color: $white;
-    }
-  }
-
-  .about {
+  .about-title {
     background: none;
 
     .title {
       font-size: 2.3rem;
       font-weight: 500;
       margin: 80px auto 30px auto;
+    }
+  }
+}
+
+.activities-top {
+  font-weight: 400;
+  line-height: 1.7rem;
+
+  .overlay {
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(100,100,100,0.4);
+  }
+
+  .marquee-text {
+    left: 10%;
+  }
+
+  .content, td, th {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .img {
+    width: 100%;
+  }
+
+  .separator-container {
+    background: $separator-grey;
+    height: 1px;
+
+    .separator {
+      top: -2px;
+      margin: 0;
+    }
+  }
+
+  .intro {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    .content {
+      margin-bottom: 70px;
+    }
+  }
+  
+  .about-org {
+    .title {
+      margin-bottom: 50px;
+    }
+    .content {
+      margin-bottom: 70px;
+    }
+  }
+  
+  .activity-content {
+    .title {
+      margin-bottom: 15px;
+    }
+    .lead {
+      margin: 15px 0;
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
+    .content {
+      margin-bottom: 40px;
+    }
+  }
+  
+  .awards {
+    margin-top: 20px;
+    .title {
+      margin-bottom: 20px;
+    }
+
+    table {
+      font-size: 0.9rem;
+
+      tr {
+        border-top: 1px solid $separator-grey;
+        th {
+          background: $theme-light-grey;
+          padding: 15px 10px;
+          vertical-align: top;
+          min-width: 80px;
+        }
+        td {
+          padding: 15px;
+        }
+      }
+    }
+  }
+
+  .history {
+    margin-top: 70px;
+    
+    .title {
+      margin-bottom: 20px;
+    }
+    .separator-container {
+      margin: 50px 0;
+    }
+  }
+  .about-consultation {
+    .title {
+      margin: 20px 0 50px;
+    }
+    .separator-container {
+      margin: 50px 0;
+    }
+  }
+
+  .staff {
+    .title {
+      margin: 20px 0 50px;
+    }
+    .img {
+      padding: 30px 60px;
+    }
+    .role-title, .name {
+      font-weight: 600;
+    }
+    .name {
+      margin-bottom: 20px;
     }
   }
 }

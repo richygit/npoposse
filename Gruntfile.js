@@ -84,6 +84,13 @@ module.exports = function(grunt) {
             dest: 'dev/images/counselling/', 
             filter: 'isFile'
           },
+          {
+            expand: true, 
+            flatten: true, 
+            src: ['src/images/activities/*'], 
+            dest: 'dev/images/activities/', 
+            filter: 'isFile'
+          },
           
           {
             expand: true, 

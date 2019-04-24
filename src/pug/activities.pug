@@ -27,7 +27,7 @@ html(lang='en')
     header
       nav.navbar.navbar-light.navbar-expand-md
         a.navbar-brand(href="/")
-          img(src="images/counselling/logo.png", alt="logo")
+          img(src="images/logo.png", alt="logo")
           .tagline
             | 若者の「働くこと」に関する
             br
@@ -54,146 +54,186 @@ html(lang='en')
           a(href="#").consultation.btn.align-middle 生活相談
     .container-fluid
 
-      .counselling-top
-        .row.counselling
-          .col-md
-            .centre-text
-              .main
-                | 労働相談
+
+      .activities-top
+        section.activities-marquee
           .marquee
-            picture
-              source(srcset="images/counselling/counselling-marquee-sm.jpg", media="(max-width: 768px)")
-              source(srcset="images/counselling/counselling-marquee.jpg", media="(min: 769px)")
-              img(src="images/counselling/counselling-marquee.jpg", alt="marquee image")
+            img(src="images/home/about.jpg", alt="activities image")
+            .overlay
+            .marquee-text
+              | 活動内容
 
-
-        section.opener
-          .container
-            .row
-              .col-md
-                .centre-text
-                  .lead
-                    | 労働トラブルについて
-                    br
-                    | NPO法人POSSEでは
-                    br
-                    | 相談を無料で受け付けています。 
-                  .lead-text
-                    p
-                      | 残業代が支払われない | 有給休暇がとれない | 休みがとれない
-                    p
-                      | セクハラ、パワハラ、嫌がらせをされた | 仕事をやめさせられそうになっている | 仕事をやめさせてもらえない
-                    p
-                      | そのほか、どんなことでも構いません。
-                    p
-                      | ひとりで悩む前に、ぜひためしに一度、お気軽にご連絡ください。
-                a.green.btn.btn-primary(href="#")
-                  | 相談フォームに進む
-
-        section.solutions
-          .container
-            .row.head
-              .col-md
-                .centre-text
-                  .lead
-                    | 解決のためにPOSSEができること
+        .container.intro
+          .row
+            .col-md.content
+              | NPO法人POSSE（ポッセ）は、誰もが安心して生活し、働くことができる社会を目指して、労働や貧困問題に取り組む団体です。
+          .row
+            .col-md
+              .separator-container
                 .separator
-            .row
-              .col-md
-                .centre-text
-                  .icon.circle-icon
-                    img.img(src="images/counselling/advice.png", alt="book icon")
-                  .lead
-                    | 法律の知識、
-                    br
-                    | 解決法のアドバイス
-                .container
-                  .row
-                    .col-md
-                      .content 
-                        | ご連絡いただいた内容を元に、相談内容に応じた法律の知識や、解決の仕方をアドバイスいたします。
-              .col-md
-                .centre-text
-                  .icon.circle-icon
-                    img.img(src="images/counselling/support.png", alt="raised hands icon")
-                  .lead
-                    | 解決のための
-                    br
-                    | 具体的なサポート
-                .container
-                  .row
-                    .col-md
-                      .content 
-                        | 職場がなかなか適切な対応をとらないケースや、あまりに悪質なケースは、NPO法人POSSEのスタッフが解決のための具体的なサポートをいたします。
-              .col-md
-                .centre-text
-                  .icon.circle-icon
-                    img.img(src="images/counselling/help.png", alt="smart lady icon")
-                  .lead
-                    | 専門家の紹介
-                .container
-                  .row
-                    .col-md
-                      .content 
-                        | 問題に応じて、ユニオン（労働組合）や弁護士などの専門家を紹介することもあります。
-                    
-        section.experts
-          .container
-            .row
-              .col-md
-                .centre-text
-                  .lead
-                    | 相談の流れ
-            .row
-              .col-md
-                .centre-text
-                  picture
-                    source(srcset="images/counselling/flow-vertical.png", media="(max-width: 768px)")
-                    source(srcset="images/counselling/flow-horizontal.png", media="(min-width: 769px)")
-                    img(src="images/counselling/flow-horizontal.png", alt="flowchart")
-            .row
-              .col-md
-                .centre-text
-                  .bottom-link
-                    a.link.link-caret(href="#", alt="")
-                      | 相談の流れについてもっと詳しく
 
-        section.characteristics
+        .container.about-org
+          .row
+            .col-md
+              .title
+                | POSSEの活動について
+              .content
+                | POSSEでは、相談へのアドバイス、権利行使のサポートに加え、メディアでの発信などをつうじて、労働・貧困の現場から社会に影響を与えていく活動を行っています。
+
+        .container.activity-content
+          .row
+            .col-md
+              .title
+                | 活動内容
+          .row
+            .col-md
+              img.img(src="images/activities/consultation.jpg", alt="consultation")
+              .lead
+                | 労働・生活相談
+              .content
+                | POSSEでは、労働問題、生活支援、奨学金の相談を無料で行っています。件数は年間2000件以上を数えます。 電話やメール、面談を通じての法律知識や解決方法のアドバイス・サポートを中心に、労働組合や弁護士、労働基準監督署などの紹介なども行っています。
+            .col-md
+              img.img(src="images/activities/labour-law.jpg", alt="labour law education")
+              .lead
+                | 労働法教育
+              .content
+                | 高校や大学などの学生を主な対象として、労働法について累計100回以上の講義をしています。 労働法の条文の紹介ではなく、ワークショップやロールプレイの実践、実際の労働問題の映像の上映、学生が想定しやすいブラックバイトでの権利行使の練習などの工夫をしています。
+            .col-md
+              img.img(src="images/activities/magazine.jpg", alt="magazine production")
+              .lead
+                | 雑誌制作
+              .content
+                | 年4回発行の季刊誌として、雇用問題総合誌『POSSE』を発行してきました。労働・貧困問題の実態を伝えるルポ・調査や、政策提言や背景分析を論じる研究者の論文・インタビュー・座談会など、多彩なテキストを掲載しています。2008年の創刊以来、朝日新聞の論壇時評で30回以上紹介されるなど、NPO発行の雑誌でありながら、雇用・貧困論壇で注目され続けています。
+  
+        section.awards
           .container
             .row
               .col-md
-                .centre-text
-                  .title
-                    | POSSEの特徴
-                .separator
+                .title
+                  | 受賞歴
+                  
+                table
+                  tr
+                    th
+                      | 2013年
+                    td
+                      | ユーキャン新語・流行語大賞トップテン：POSSE代表・今野晴貴が「ブラック企業」で受賞
+                  tr
+                    th
+                      | 2013年
+                    td
+                      | 大佛次郎論壇賞：POSSE代表・今野晴貴が『ブラック企業　日本を食いつぶす妖怪』（2012年、文春新書）で受賞
+                  tr
+                    th
+                      | 2013年
+                    td
+                      | 仙台市において実施したPOSSEの被災者送迎事業に対して、厚生労働大臣から感謝状を受領
+              
+        section.history
+          .container
             .row
-              .col-md.panel
-                img.img(src="images/counselling/characteristics1.png", alt="characteristics")
-                .detail
-                  .lead
-                    span
-                      | POSSEの特徴
-                    | を伝えられるようなテキストを入れたいです。
-                  .content
-                    | POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。
-              .col-md.panel
-                img.img(src="images/counselling/characteristics1.png", alt="characteristics")
-                .detail
-                  .lead
-                    span
-                      | POSSEの特徴
-                    | を伝えられるようなテキストを入れたいです。
-                  .content
-                    | POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。
-              .col-md.panel
-                img.img(src="images/counselling/characteristics1.png", alt="characteristics")
-                .detail
-                  .lead
-                    span
-                      | POSSEの特徴
-                    | を伝えられるようなテキストを入れたいです。
-                  .content
-                    | POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。
+              .col-md
+                .title
+                  | 沿革
+                .content
+                  p
+                    | 2000年代後半、若者の格差・貧困問題が注目され、特に「非正規雇用」の問題がクローズアップされました。
+                  p
+                    | POSSEは、その最中である2006年に、当時大学生だった今野晴貴らによって結成され、労働相談や街頭調査などを通じて、これらの問題に取り組んできました。
+                  p
+                    | それから10年が経ち、雇用の劣化はますます拡大しています。
+                  p
+                    | 非正規雇用に限らず、正社員であっても、低賃金・長時間労働が「普通」のことになり、誰もが貧困や過労死と隣り合わせの時代になっています。
+                  p
+                    | 私たちは、このことを早くから「ブラック企業」問題として位置付け、活動をつうじて社会問題化してきました。
+                  p
+                    | これまで1万件を超える相談の解決支援や、労働・貧困の実態の啓発、求められる政策の提言を続けています。
+                  p
+                    | 2014年にはPOSSEのスタッフが中心となり、個人加盟の労働組合・総合サポートユニオンが設立されています。
+                  p
+                    | 同ユニオンでは、2014年の「たかの友梨ビューティクリニック」事件をはじめ、POSSEと連携して事件解決に取り組んでいます。
+                  p
+                    | 現在では、エステ・ユニオン、介護・保育ユニオン、ブラックバイトユニオン、ブラック企業ユニオンなどの業種別・課題別の支部がつくられています。
+            .row
+              .col-md
+                .separator-container
+                  .separator
+
+        section.about-consultation
+          .container
+            .row
+              .col-md
+                .title
+                  | 労働・生活相談について
+                .content
+                  p
+                    | POSSEでは労働・生活に関する相談を無料で受け付けております。
+                  p
+                    | POSSEでは、みなさんからの相談を無料で受け付けています。「労働」「生活」「奨学金」についての相談が主となっています。
+                  p
+                    | ご相談の連絡をいただくと、担当のスタッフが相談の問題点を整理して、解決の方向性や、場合によっては専門家・団体をアドバイスします。弁護士や労働組合などを活用される際は、相談者からそれらの専門家・団体に対して、着手金・成功報酬・入会費・組合費などの支払いが一般的に発生しますが、POSSEに対する費用の支払いはありません。POSSEはNPOとしての会費・寄付・各種助成金による収入や、ボランティアに支えられて活動を運営しているため、無料での相談対応となっています。
+                  p
+                    | POSSEに寄せられた相談から、労働基準監督署の行政指導、裁判所での民事訴訟、労働組合での団体交渉をつうじて解決に結びついた事例は、テレビ・新聞・雑誌などでも多数取り上げられています。事件解決までの概要は、「
+                    a(href="#")
+                      | 解決事例
+                    | 」をご参照ください。
+            .row
+              .col-md
+                .separator-container
+                  .separator
+
+        section.staff
+          .container
+            .row
+              .col-md
+                .title
+                  | スタッフ
+                .content
+                  | POSSEの主要スタッフをご紹介いたします。
+            .row
+              .col-md
+                .profile
+                  img.img(src="images/activities/konno.jpg", alt="konno-san")
+                  .role-title
+                    | NPO法人POSSE代表
+                  .name
+                    | 今野晴貴
+                  .bio.content
+                    p
+                      | 著書に『ブラック企業』（文春新書）、『ブラックバイト』（岩波新書）など多数。2013年度大佛次郎
+                    p
+                      | 論壇賞、流行語大賞トップ10を受賞。
+
+              .col-md
+                .profile
+                  img.img(src="images/activities/sakakura.jpg", alt="sakakura-san")
+                  .role-title
+                    | NPO法人POSSE理事 / 雑誌『POSSE』前編集長 / ブラック企業ユニオン・裁量労働制ユニオン代表
+                  .name
+                    | 坂倉昇平
+                  .bio.content
+                    p
+                      | 共著に『ベーシックインカムは究極の社会保障か』（堀之内出版）、『18歳からの民主主義』（岩波新書）など。
+
+              .col-md
+                .profile
+                  img.img(src="images/activities/watanabe.jpg", alt="watanabe-san")
+                  .role-title
+                    | NPO法人POSSE事務局長/雑誌『POSSE』編集長
+                  .name
+                    | 渡辺寛人
+                  .bio.content
+                    p
+                      | 社会福祉士。共著に『断絶の都市センダイ』（朝日新聞出版）
+
+              .col-md
+                .profile
+                  img.img(src="images/activities/miura.jpg", alt="miura-san")
+                  .role-title
+                    | NPO法人POSSE相談スタッフ
+                  .name
+                    | 三浦かおり 
+                  .bio.content
 
       section.contact-cta
         .container
@@ -237,43 +277,6 @@ html(lang='en')
                 | ※来所相談をご希望の方は、相談スタッフが相談等で事務所に不在の場合もございますので、必ず事前にメールまたは電話にてご連絡をお願いいたします。
               .note-text
                 | ※ご相談内容は、個人が特定されない形で調査等に利用する場合がございますので、ご了承ください。
-
-      .counselling-top
-        section.about-title
-          .container.links
-            .row
-              .col-md
-                .centre-text
-                  .title
-                    | NPO法人
-                    br
-                    | POSSEについて
-                .separator
-
-
-      .links.container
-        .row
-          .links-container.col-md
-            .centre-text
-              .icon.circle-icon
-                img.img(src="images/icon-activity.png", alt="icon activity content")
-              a(href="#").link.link-caret 活動内容
-            .content POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。
-          .links-container.col-md
-            .centre-text
-              .icon.circle-icon
-                img.icon-resolution.img(src="images/icon-resolution.png", alt="icon case resolution")
-              a(href="#").link.link-caret 解決事例
-            .content POSSEには年間2000件以上の労働・生活相談が寄せらています。解決事例の一部をご紹介します。
-          .links-container.col-md
-            .centre-text
-              .icon.circle-icon
-                img.icon-qa.img(src="images/icon-qa.png", alt="icon question and answer")
-              a(href="#").link.link-caret 相談の流れ・よくある質問
-            .content 相談の流れとよくある質問についてご紹介します。
-
-            
-
 
 
 
