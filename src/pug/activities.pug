@@ -75,7 +75,7 @@ html(lang='en')
         .container.about-org
           .row
             .col-md
-              .title
+              h1.title
                 | POSSEの活動について
               .content
                 | POSSEでは、相談へのアドバイス、権利行使のサポートに加え、メディアでの発信などをつうじて、労働・貧困の現場から社会に影響を与えていく活動を行っています。
@@ -83,23 +83,28 @@ html(lang='en')
         .container.activity-content
           .row
             .col-md
-              .title
+              h2
                 | 活動内容
-          .row
-            .col-md
+          .row.content-row
+            .col-md-4
               img.img(src="images/activities/consultation.jpg", alt="consultation")
+            .col-md-8
               .lead
                 | 労働・生活相談
               .content
                 | POSSEでは、労働問題、生活支援、奨学金の相談を無料で行っています。件数は年間2000件以上を数えます。 電話やメール、面談を通じての法律知識や解決方法のアドバイス・サポートを中心に、労働組合や弁護士、労働基準監督署などの紹介なども行っています。
-            .col-md
+          .row.content-row
+            .col-md-4
               img.img(src="images/activities/labour-law.jpg", alt="labour law education")
+            .col-md-8
               .lead
                 | 労働法教育
               .content
                 | 高校や大学などの学生を主な対象として、労働法について累計100回以上の講義をしています。 労働法の条文の紹介ではなく、ワークショップやロールプレイの実践、実際の労働問題の映像の上映、学生が想定しやすいブラックバイトでの権利行使の練習などの工夫をしています。
+          .row.content-row
             .col-md
               img.img(src="images/activities/magazine.jpg", alt="magazine production")
+            .col-md-8
               .lead
                 | 雑誌制作
               .content
@@ -109,7 +114,7 @@ html(lang='en')
           .container
             .row
               .col-md
-                .title
+                h2
                   | 受賞歴
                   
                 table
@@ -133,7 +138,18 @@ html(lang='en')
           .container
             .row
               .col-md
-                .title
+                h2
+                  | 助成金
+                .content
+                  p 
+                    | POSSE発足以来、各種団体から助成金を受領しています。 
+                  p
+                    | 代表例
+                  p
+                    | 電通育英会（生活相談）　/　パルシステム東京市民活動助成基金（生活相談）　/　市民社会チャレンジ基金（政策提言）　/　草の根市民基金・ぐらん（政策提言）　/　みやぎNPO夢ファンド（広報活動）　/　大阪コミュニティ財団（労働法教育）　/　福祉医療機構（被災地支援）　/　赤い羽根共同募金（被災地支援事業）　/　JKA（被災地支援事業）　ほか多数
+            .row
+              .col-md
+                h2
                   | 沿革
                 .content
                   p
@@ -163,7 +179,7 @@ html(lang='en')
           .container
             .row
               .col-md
-                .title
+                h1.title
                   | 労働・生活相談について
                 .content
                   p
@@ -184,16 +200,18 @@ html(lang='en')
 
         section.staff
           .container
-            .row
+            .row.title-row
               .col-md
-                .title
+                h1.title
                   | スタッフ
                 .content
                   | POSSEの主要スタッフをご紹介いたします。
-            .row
-              .col-md
+            .row.profile-row
+              .col-md-3
                 .profile
                   img.img(src="images/activities/konno.jpg", alt="konno-san")
+              .col-md-9
+                .profile
                   .role-title
                     | NPO法人POSSE代表
                   .name
@@ -204,9 +222,12 @@ html(lang='en')
                     p
                       | 論壇賞、流行語大賞トップ10を受賞。
 
-              .col-md
+            .row.profile-row
+              .col-md-3
                 .profile
                   img.img(src="images/activities/sakakura.jpg", alt="sakakura-san")
+              .col-md-9
+                .profile
                   .role-title
                     | NPO法人POSSE理事 / 雑誌『POSSE』前編集長 / ブラック企業ユニオン・裁量労働制ユニオン代表
                   .name
@@ -215,9 +236,12 @@ html(lang='en')
                     p
                       | 共著に『ベーシックインカムは究極の社会保障か』（堀之内出版）、『18歳からの民主主義』（岩波新書）など。
 
-              .col-md
+            .row.profile-row
+              .col-md-3
                 .profile
                   img.img(src="images/activities/watanabe.jpg", alt="watanabe-san")
+              .col-md-9
+                .profile
                   .role-title
                     | NPO法人POSSE事務局長/雑誌『POSSE』編集長
                   .name
@@ -226,9 +250,12 @@ html(lang='en')
                     p
                       | 社会福祉士。共著に『断絶の都市センダイ』（朝日新聞出版）
 
-              .col-md
+            .row.profile-row
+              .col-md-3
                 .profile
                   img.img(src="images/activities/miura.jpg", alt="miura-san")
+              .col-md-9
+                .profile
                   .role-title
                     | NPO法人POSSE相談スタッフ
                   .name
@@ -240,7 +267,7 @@ html(lang='en')
           .row
             .col-md
               .centre-text
-                .title
+                h1.title
                   | お気軽にご相談ください
                 .content
                   | 相談無料  /  秘密厳守  /  メール・電話OK
@@ -282,7 +309,7 @@ html(lang='en')
 
 
       .support.centre-text
-        .title 
+        h1.title 
           | POSSEの活動を
           br.d-xs-block.d-md-none
           | 支援しませんか

@@ -406,6 +406,7 @@ html {
   .title {
     padding-top: 40px;
     font-size: 1.6rem;
+    text-align: center;
   }
 
   .content {
@@ -541,6 +542,7 @@ html {
   .title {
     color: $white;
     font-size: 2rem;
+    text-align: center;
   }
 
   .content {
@@ -568,9 +570,10 @@ html {
     font-size: 0.7rem;
     font-weight: 600;
     background: $theme-light-grey;
+    max-width: 400px;
+    padding: 3px;
   }
   .phone-no {
-    text-decoration: underline;
     font-size: 2.1rem;
     line-height: 3rem;
     color: $theme-green;
@@ -583,10 +586,7 @@ html {
       font-size: 0.7rem;
       font-weight: 400;
       line-height: 1.2rem;
-    }
-
-    .number {
-      text-decoration: underline;
+      margin: 10px auto;
     }
   }
 
@@ -760,6 +760,7 @@ html {
 
   .marquee-text {
     left: 10%;
+    width: 90%;
   }
 
   .content, td, th {
@@ -767,10 +768,15 @@ html {
     line-height: 1.4rem;
   }
 
-  .title {
-    font-size: 1.6rem;
+  h1 {
+    font-size: 2.1rem;
     font-weight: 500;
   }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
   .img {
     width: 100%;
   }
@@ -794,7 +800,7 @@ html {
   }
   
   .about-org {
-    .title {
+    h1 {
       margin-bottom: 50px;
     }
     .content {
@@ -803,7 +809,7 @@ html {
   }
   
   .activity-content {
-    .title {
+    h2 {
       margin-bottom: 15px;
     }
     .lead {
@@ -817,8 +823,8 @@ html {
   }
   
   .awards {
-    margin-top: 20px;
-    .title {
+    margin-top: 60px;
+    h2 {
       margin-bottom: 20px;
     }
 
@@ -843,15 +849,16 @@ html {
   .history {
     margin-top: 70px;
     
-    .title {
+    .row {
+      margin-bottom: 50px;
+    }
+    h2 {
       margin-bottom: 20px;
     }
-    .separator-container {
-      margin: 50px 0;
-    }
+
   }
   .about-consultation {
-    .title {
+    h1 {
       margin: 20px 0 50px;
     }
     .separator-container {
@@ -860,11 +867,12 @@ html {
   }
 
   .staff {
-    .title {
+    h1 {
       margin: 20px 0 50px;
     }
     .img {
       padding: 30px 60px;
+      max-width: 300px;
     }
     .role-title, .name {
       font-weight: 600;
@@ -1073,6 +1081,31 @@ html {
     }
   }
   
+  .contact-cta {
+    .hours {
+      font-size: 0.7rem;
+      width: 70%;
+      padding: 4px;
+    }
+    .phone-no {
+      margin-top: 10px;
+      font-size: 2.7rem;
+    }
+    .phone-sub {
+      margin-top: 10px;
+      
+      .number {
+        display: inline;
+      }
+      .content {
+        display: inline;
+      }
+    }
+    .bottom-notes {
+      margin-top: 20px;
+    }
+  }
+
   .counselling-top {
     .btn.btn-primary {
       max-width: 300px;
@@ -1083,35 +1116,57 @@ html {
       }
     }
 
-    .contact-cta {
-      .hours {
-        font-size: 0.7rem;
-        width: 70%;
-        padding: 4px;
-      }
-      .phone-no {
-        margin-top: 10px;
-        font-size: 2.7rem;
-      }
-      .phone-sub {
-        margin-top: 10px;
-        
-        .number {
-          display: inline;
-        }
-        .content {
-          display: inline;
-        }
-      }
-      .bottom-notes {
-        margin-top: 20px;
-      }
-    }
-
     .about {
       .title {
         br {
           display: none;
+        }
+      }
+    }
+  }
+
+  .activities-top {
+    .marquee-text {
+      font-size: 3.1rem;
+      font-weight: 500;
+    }
+
+    .activity-content {
+      .content-row {
+        margin-bottom: 40px;
+      }
+      .lead {
+        margin: 0 0 15px 0;
+      }
+    }
+    
+    .awards table {
+      tr {
+        border: 1px solid $separator-grey;
+        
+        td, th {
+          padding: 25px 15px;
+        }
+      }
+    }
+    
+    .staff {
+      .name {
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+      .role-title {
+        font-weight: 500;
+        font-size: 0.9rem;
+      }
+      .title-row {
+        margin-bottom: 20px;
+      }
+      .profile-row {
+        margin-bottom: 60px;
+        
+        .img {
+          padding: 0 30px;
         }
       }
     }
