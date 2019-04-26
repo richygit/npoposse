@@ -747,6 +747,37 @@ html {
   }
 }
 
+.sidemenu {
+  margin-top: 60px;
+
+  ul {
+    list-style: none;
+    padding-inline-start: 0;
+
+    li {
+      background: $theme-green;
+      margin-bottom: 5px;
+
+      a {
+        color: $white;
+        font-size: 0.8rem;
+
+        .menu-item {
+          padding: 10px;
+
+          &::after {
+            content: '>';
+            font-weight: 800;
+            position: absolute;
+            right: 28px;
+          }
+        }
+        
+      }
+    }
+  }
+}
+
 .activities-top {
   font-weight: 400;
   line-height: 1.7rem;
