@@ -253,30 +253,33 @@ html {
   left: 30px;
 }
 
-.links .links-container {
+.links.container {
+  margin-bottom: 20px;
+}
+.links.container .links-container {
   background-color: #f2f5f4;
   margin: 20px 20px 0 20px;
   padding: 35px 0;
 }
-.links .img.icon-resolution, .links .img.icon-qa {
+.links.container .img.icon-resolution, .links.container .img.icon-qa {
   width: 49px;
   top: 33px;
   left: 27px;
 }
-.links .circle-icon {
+.links.container .circle-icon {
   background-color: #fff;
 }
-.links .centre-text .link {
+.links.container .centre-text .link {
   font-size: 1.3rem;
   font-weight: 600;
   margin-top: 20px;
   color: #000;
   display: block;
 }
-.links .centre-text .link.link-caret::after {
+.links.container .centre-text .link.link-caret::after {
   color: #888;
 }
-.links .content {
+.links.container .content {
   color: #888;
   font-size: 0.8rem;
   line-height: 1.5rem;
@@ -358,6 +361,7 @@ html {
 .support .title {
   padding-top: 40px;
   font-size: 1.6rem;
+  text-align: center;
 }
 .support .content {
   margin-top: 15px;
@@ -471,6 +475,65 @@ html {
   font-weight: 300;
 }
 
+.contact-cta {
+  background: #2fa342;
+  padding: 100px 0;
+}
+.contact-cta .title {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+.contact-cta .content {
+  font-weight: 600;
+  margin: 10px auto 30px auto;
+}
+.contact-cta .panel {
+  background: #fff;
+  padding: 40px 25px;
+  margin-bottom: 15px;
+  height: 100%;
+}
+.contact-cta .panel .btn.btn-primary {
+  background: #2fa342;
+}
+.contact-cta .panel .btn.btn-primary .icon {
+  width: 30px;
+  margin-right: 10px;
+}
+.contact-cta .hours {
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: #f2f5f4;
+  max-width: 400px;
+  padding: 3px;
+}
+.contact-cta .phone-no {
+  font-size: 2.1rem;
+  line-height: 3rem;
+  color: #2fa342;
+}
+.contact-cta .phone-sub {
+  color: #2fa342;
+  margin-bottom: 30px;
+}
+.contact-cta .phone-sub .content {
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  margin: 10px auto;
+}
+.contact-cta ul {
+  font-size: 0.7rem;
+  color: grey;
+  font-weight: 300;
+  letter-spacing: 0;
+  padding-inline-start: 15px;
+}
+.contact-cta .bottom-notes .note-text {
+  color: #fff;
+}
+
 .counselling-top .counselling {
   margin: 0;
 }
@@ -580,71 +643,148 @@ html {
 .counselling-top .characteristics .panel {
   margin-top: 20px;
 }
-.counselling-top .contact-cta {
-  background: #2fa342;
-  padding: 100px 0;
-}
-.counselling-top .contact-cta .title {
-  color: #fff;
-  font-size: 2rem;
-}
-.counselling-top .contact-cta .content {
-  font-weight: 600;
-  margin: 10px auto 30px auto;
-}
-.counselling-top .contact-cta .panel {
-  background: #fff;
-  padding: 40px;
-  margin-bottom: 15px;
-  height: 100%;
-}
-.counselling-top .contact-cta .panel .btn.btn-primary {
-  background: #2fa342;
-}
-.counselling-top .contact-cta .panel .btn.btn-primary .icon {
-  width: 30px;
-  margin-right: 10px;
-}
-.counselling-top .contact-cta .hours {
-  font-size: 0.6rem;
-  font-weight: 600;
-  background: #f2f5f4;
-}
-.counselling-top .contact-cta .phone-no {
-  text-decoration: underline;
-  font-size: 1.8rem;
-  line-height: 3rem;
-  color: #2fa342;
-}
-.counselling-top .contact-cta .phone-sub {
-  color: #2fa342;
-  margin-bottom: 30px;
-}
-.counselling-top .contact-cta .phone-sub .content {
-  font-size: 0.7rem;
-  font-weight: 400;
-  line-height: 1.2rem;
-}
-.counselling-top .contact-cta .phone-sub .number {
-  text-decoration: underline;
-}
-.counselling-top .contact-cta ul {
-  font-size: 0.7rem;
-  color: grey;
-  font-weight: 300;
-  letter-spacing: 0;
-  padding-inline-start: 15px;
-}
-.counselling-top .contact-cta .bottom-notes .note-text {
-  color: #fff;
-}
-.counselling-top .about {
+.counselling-top .about-title {
   background: none;
 }
-.counselling-top .about .title {
+.counselling-top .about-title .title {
   font-size: 2.3rem;
   font-weight: 500;
   margin: 80px auto 30px auto;
+}
+
+.sidemenu {
+  margin-top: 60px;
+}
+.sidemenu ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.sidemenu ul li {
+  background: #2fa342;
+  margin-bottom: 5px;
+}
+.sidemenu ul li a {
+  color: #fff;
+  font-size: 0.8rem;
+}
+.sidemenu ul li a .menu-item {
+  padding: 10px;
+}
+.sidemenu ul li a .menu-item::after {
+  content: '>';
+  font-weight: 800;
+  position: absolute;
+  right: 28px;
+}
+
+.activities-top {
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+.activities-top .overlay {
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(100, 100, 100, 0.4);
+}
+.activities-top .marquee-text {
+  left: 10%;
+  width: 90%;
+}
+.activities-top .content, .activities-top td, .activities-top th {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+.activities-top h1 {
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+.activities-top h2 {
+  font-size: 1.8rem;
+}
+.activities-top .img {
+  width: 100%;
+}
+.activities-top .separator-container {
+  background: #c1c1c1;
+  height: 1px;
+}
+.activities-top .separator-container .separator {
+  top: -2px;
+  margin: 0;
+}
+.activities-top .intro {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.activities-top .intro .content {
+  margin-bottom: 70px;
+}
+.activities-top .about-org h1 {
+  margin-bottom: 50px;
+}
+.activities-top .about-org .content {
+  margin-bottom: 70px;
+}
+.activities-top .activity-content h2 {
+  margin-bottom: 15px;
+}
+.activities-top .activity-content .lead {
+  margin: 15px 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.activities-top .activity-content .content {
+  margin-bottom: 40px;
+}
+.activities-top .awards {
+  margin-top: 60px;
+}
+.activities-top .awards h2 {
+  margin-bottom: 20px;
+}
+.activities-top .awards table {
+  font-size: 0.9rem;
+}
+.activities-top .awards table tr {
+  border-top: 1px solid #c1c1c1;
+}
+.activities-top .awards table tr th {
+  background: #f2f5f4;
+  padding: 15px 10px;
+  vertical-align: top;
+  min-width: 80px;
+}
+.activities-top .awards table tr td {
+  padding: 15px;
+}
+.activities-top .history {
+  margin-top: 70px;
+}
+.activities-top .history .row {
+  margin-bottom: 50px;
+}
+.activities-top .history h2 {
+  margin-bottom: 20px;
+}
+.activities-top .about-consultation h1 {
+  margin: 20px 0 50px;
+}
+.activities-top .about-consultation .separator-container {
+  margin: 50px 0;
+}
+.activities-top .staff h1 {
+  margin: 20px 0 50px;
+}
+.activities-top .staff .img {
+  padding: 30px 60px;
+  max-width: 300px;
+}
+.activities-top .staff .role-title, .activities-top .staff .name {
+  font-weight: 600;
+}
+.activities-top .staff .name {
+  margin-bottom: 20px;
 }
 
 .note-text {
@@ -814,35 +954,70 @@ html {
     margin-bottom: 8px;
   }
 
+  .contact-cta .hours {
+    font-size: 0.7rem;
+    width: 70%;
+    padding: 4px;
+  }
+  .contact-cta .phone-no {
+    margin-top: 10px;
+    font-size: 2.7rem;
+  }
+  .contact-cta .phone-sub {
+    margin-top: 10px;
+  }
+  .contact-cta .phone-sub .number {
+    display: inline;
+  }
+  .contact-cta .phone-sub .content {
+    display: inline;
+  }
+  .contact-cta .bottom-notes {
+    margin-top: 20px;
+  }
+
   .counselling-top .btn.btn-primary {
     max-width: 300px;
   }
   .counselling-top .opener .lead {
     font-size: 2rem;
   }
-  .counselling-top .contact-cta .hours {
-    font-size: 0.7rem;
-    width: 70%;
-    padding: 4px;
-  }
-  .counselling-top .contact-cta .phone-no {
-    margin-top: 10px;
-    font-size: 2.7rem;
-  }
-  .counselling-top .contact-cta .phone-sub {
-    margin-top: 10px;
-  }
-  .counselling-top .contact-cta .phone-sub .number {
-    display: inline;
-  }
-  .counselling-top .contact-cta .phone-sub .content {
-    display: inline;
-  }
-  .counselling-top .contact-cta .bottom-notes {
-    margin-top: 20px;
-  }
   .counselling-top .about .title br {
     display: none;
+  }
+
+  .activities-top .marquee-text {
+    font-size: 3.1rem;
+    font-weight: 500;
+  }
+  .activities-top .activity-content .content-row {
+    margin-bottom: 40px;
+  }
+  .activities-top .activity-content .lead {
+    margin: 0 0 15px 0;
+  }
+  .activities-top .awards table tr {
+    border: 1px solid #c1c1c1;
+  }
+  .activities-top .awards table tr td, .activities-top .awards table tr th {
+    padding: 25px 15px;
+  }
+  .activities-top .staff .name {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .activities-top .staff .role-title {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .activities-top .staff .title-row {
+    margin-bottom: 20px;
+  }
+  .activities-top .staff .profile-row {
+    margin-bottom: 60px;
+  }
+  .activities-top .staff .profile-row .img {
+    padding: 0 30px;
   }
 }
 @media (min-width: 768px) and (max-width: 850px) {
