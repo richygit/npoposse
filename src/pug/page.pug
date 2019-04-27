@@ -1,0 +1,256 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
+
+    // TODO implement in wordpress
+    meta(property="og:title", content="European Travel Destinations")
+    meta(property="og:description", content="Offering tour packages for individuals or groups.")
+    meta(property="og:image", content="http://euro-travel-example.com/thumbnail.jpg")
+    meta(property="og:url", content="http://euro-travel-example.com/index.htm")
+    meta(name="twitter:card", content="summary_large_image")
+    meta(property="og:site_name", content="European Travel, Inc.")
+    meta(name="twitter:image:alt", content="Alt text for image")
+
+    title
+      | npoposse homepage
+
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T", crossorigin="anonymous")
+    link(rel="stylesheet", href="css/main.css")
+
+    script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js", integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo", crossorigin="anonymous")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js", integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1", crossorigin="anonymous")
+    script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js", integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM", crossorigin="anonymous")
+
+  body.home
+    header
+      nav.navbar.navbar-light.navbar-expand-md
+        a.navbar-brand(href="/")
+          img(src="images/logo.png", alt="logo")
+          .tagline
+            | 若者の「働くこと」に関する
+            br
+            | 様々な問題に取り組むNPO法人
+        button.navbar-toggler(type="button", data-toggle="collapse", data-target="#main-menu", aria-controls="main-menu", aria-expanded="false", aria-label="Toggle navigation")
+          span.navbar-toggler-icon
+
+        .collapse.navbar-collapse#main-menu.menu-links
+          ul.list.navbar-nav
+            li.nav-item.active
+              a.nav-link(href="/")
+                | ニュース
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href="#") POSSEについて
+            li.nav-item
+              a.nav-link(href="#") 相談窓口
+            li.nav-item
+              a.nav-link(href="#") お問い合わせ
+            li.nav-item
+              a.nav-link(href="#") POSSEを支援する
+        .btn-group(role="toolbar", aria-label="生活相談, 労働相談")
+          a(href="#").counselling.btn.align-middle 労働相談
+          a(href="#").consultation.btn.align-middle 生活相談
+    .container-fluid
+      
+
+      .container
+        .row
+          .col
+            h1
+              | this is h1
+            h2
+              | this is h2
+            h3
+              | this is h3
+            h4
+              | this is h4
+      
+
+
+            p
+              | 本文本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト。
+              strong
+                | some bold text
+            ul
+              li
+                | item 1
+              li
+                | item 2
+
+            ul
+              ol
+                | item 1
+              ol
+                | item 2
+
+            p
+              | The 16yo wonder is touring her&nbsp;
+              a(href="https://www.abc.net.au/triplej/news/musicnews/billie-eilish-debut-album-review-feature-interview/10966426")
+                | excellent debut album 
+              | &nbsp;on our&nbsp;
+              a(href="https://www.abc.net.au/triplej/news/musicnews/billie-eilish-2019-australian-tour-all-ages-shows/10781886",target="_blank",rel="noreferrer noopener")
+                | shores right now,
+              | more stuff here
+
+
+
+            .wp-block-image
+              figure.alignleft.is-resized
+                img.wp-image-11(src="http://localhost:7000/wp-content/uploads/2019/04/Screen-Shot-2019-04-27-at-11.50.16-am-1024x479.png", alt="", width="310", height="145", srcset="http://localhost:7000/wp-content/uploads/2019/04/Screen-Shot-2019-04-27-at-11.50.16-am-1024x479.png 1024w, http://localhost:7000/wp-content/uploads/2019/04/Screen-Shot-2019-04-27-at-11.50.16-am-300x140.png 300w, http://localhost:7000/wp-content/uploads/2019/04/Screen-Shot-2019-04-27-at-11.50.16-am-768x359.png 768w, http://localhost:7000/wp-content/uploads/2019/04/Screen-Shot-2019-04-27-at-11.50.16-am.png 1526w", sizes="(max-width: 310px) 100vw, 310px")
+
+            .wp-block-image
+              figure.alignright.is-resized
+                img.wp-image-11(src="http://localhost:7000/wp-content/uploads/2019/04/Screen-Shot-2019-04-27-at-11.50.16-am-1024x479.png",alt="", width="289", height="135", srcset="http://localhost:7000/wp-content/uploads/2019/04/Screen-Shot-2019-04-27-at-11.50.16-am-1024x479.png 1024w, http://localhost:7000/wp-content/uploads/2019/04/Screen-Shot-2019-04-27-at-11.50.16-am-300x140.png 300w, http://localhost:7000/wp-content/uploads/2019/04/Screen-Shot-2019-04-27-at-11.50.16-am-768x359.png 768w, http://localhost:7000/wp-content/uploads/2019/04/Screen-Shot-2019-04-27-at-11.50.16-am.png 1526w", sizes="(max-width: 289px) 100vw, 289px")
+
+            blockquote.wp-block-quote
+              p
+                | this is a quote
+
+            hr.wp-block-separator
+      
+            table
+              tr
+                th
+                  | head 1
+                th
+                  | head 2
+                th
+                  | head 3
+              tr
+                td
+                  | テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                td
+                  | テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                td
+                  | テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+
+
+            table
+              tr
+                th
+                  | head 1
+                td
+                  | テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              tr
+                th
+                  | head 2
+                td
+                  | テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              tr
+                th
+                  | head 3
+                td
+                  | テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+
+
+
+      .support.centre-text
+        h1.title 
+          | POSSEの活動を
+          br.d-xs-block.d-md-none
+          | 支援しませんか
+        .content 
+          | ご寄付や会員登録、ボランティアを募集しています。
+          br
+          | 多くの若者の働き方や生活を改善するために、
+          br.d-xs-block.d-md-none
+          | ぜひご協力ください。
+        .container
+          .buttons.row
+            .col-md
+              a(href="#").green.btn.btn-primary 募金で支援する
+            .col-md
+              a(href="#").green.btn.btn-primary 会員活動で支援する
+            .col-md
+              a(href="#").green.btn.btn-primary.window ボランティアに参加する
+      .bg-wrapper
+        .container
+          .banners.row
+            a(href="#").col-md
+              img(src="images/posse_bnr.png", alt="posse magazine").img.banner
+            a(href="#").col-md
+              img(src="images/shigoto_bnr.png", alt="work report").img.banner
+        .container.contact
+          .row
+            .contact-info.col-md-4
+              .logo
+                img(src="images/logo.png", alt="npo posse logo").img
+              .address
+                span.company-number 06-0000-0000
+                | 〒155-0031
+                br
+                | 東京都世田谷区北沢4-17-15
+                br
+                | ローゼンハイム下北沢201
+            footer.menu-links.col-md-8
+              .container
+                .row
+                  ul.col-md
+                    li 
+                      a(href="#") TOP
+                    li
+                      a(href="#") ニュース
+                    li
+                      a(href="#") POSSEについて
+                    li
+                      ul.sub-menu
+                        li
+                          a(href="#") 活動内容
+                        li
+                          a(href="#") 解決事例
+                        li
+                          a(href="#") 相談の流れ・よくある質問
+                  ul.col-md
+                    li
+                      a(href="#") 相談窓口
+                    li
+                      ul.sub-menu
+                        li
+                          a(href="#") 労働相談
+                        li
+                          a(href="#") 生活相談
+                    li
+                      a(href="#") お問い合わせ
+                    li
+                      a(href="#") POSSEを支援する
+                    li
+                      ul.sub-menu
+                        li
+                          a(href="#") 募金で支援する
+                        li
+                          a(href="#") 会員活動で支援する
+                        li
+                          a(href="#") ボランティアに参加する
+                  ul.col-md
+                    li
+                      a(href="#") その他
+                    li
+                      ul.sub-menu
+                        li
+                          a(href="#") 取材・講演依頼について
+                        li
+                          a(href="#") 組織図・賛同人
+                        li
+                          a(href="#") メディア報道
+                        li
+                          a(href="#") 雑誌POSSE
+                    li
+                      a(href="#") 関連リンク
+                    li
+                      ul.sub-menu
+                        li
+                          a(href="#").window-icon 就職活動のための法律ガイド
+                        li
+                          a(href="#").window-icon NPO法人POSSE解雇リストラ相談センター
+                        li
+                          a(href="#").window-icon NPO法人POSSE奨学金Navi
+                        li
+                          a(href="#").window-icon 残業代請求サポートセンター
+        .centre-text
+          .copyright 
+            | ©Posse
+            br
+            | PosseはNPO法人です。特定の宗教・政党との関係はありません。
+
