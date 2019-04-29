@@ -170,12 +170,24 @@ html {
 .marquee {
   position: relative;
 
+  .overlay {
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(100,100,100,0.4);
+  }
+
+  .marquee-text {
+    left: 10%;
+    width: 90%;
+  }
+
   img {
     width: 100%;
     height: auto;
   }
 
-  &> div {
+  &> div, &> h1 {
     position: absolute;
     top: 40%;
     color: white;
@@ -845,18 +857,6 @@ html {
 
   p {
     font-size: 0.8rem;
-  }
-
-  .overlay {
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(100,100,100,0.4);
-  }
-
-  .marquee-text {
-    left: 10%;
-    width: 90%;
   }
 
   .content, td, th {

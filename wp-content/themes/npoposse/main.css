@@ -1,4 +1,63 @@
 @charset "UTF-8";
+h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+p, tr {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+th, td {
+  border: 1px solid #c1c1c1;
+  padding: 20px;
+}
+
+th {
+  background: #f2f5f4;
+}
+
+a {
+  color: #2fa342;
+}
+
+blockquote {
+  padding-left: 50px;
+  border-left: 5px solid #888;
+}
+
+.wp-block-image figure.alignleft {
+  float: none;
+  margin-right: 0;
+}
+.wp-block-image figure.alignright {
+  float: none;
+  margin-left: 0;
+}
+
+.wp-block-separator {
+  background: 1px solid #c1c1c1;
+}
+.wp-block-separator:after {
+  content: ' ';
+  background-color: #2fa342;
+  display: inline-block;
+  position: relative;
+  top: -16px;
+  height: 5px;
+  width: 100px;
+}
+
 html {
   font-family: -apple-system, "Hiragino Sans", "Arial", YuGothic, "Yu Gothic", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
 }
@@ -681,6 +740,9 @@ html {
   font-weight: 400;
   line-height: 1.7rem;
 }
+.activities-top p {
+  font-size: 0.8rem;
+}
 .activities-top .overlay {
   height: 100%;
   top: 0;
@@ -795,6 +857,15 @@ html {
 }
 
 @media (min-width: 768px) {
+  .wp-block-image figure.alignleft {
+    float: left;
+    margin-right: 20px;
+  }
+  .wp-block-image figure.alignright {
+    float: right;
+    margin-left: 20px;
+  }
+
   .home {
     letter-spacing: 1px;
   }
