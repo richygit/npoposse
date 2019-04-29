@@ -712,10 +712,10 @@ html {
 .counselling-top .characteristics .panel {
   margin-top: 20px;
 }
-.counselling-top .about-title {
+.counselling-top .about {
   background: none;
 }
-.counselling-top .about-title .title {
+.counselling-top .about .title {
   font-size: 2.3rem;
   font-weight: 500;
   margin: 80px auto 30px auto;
