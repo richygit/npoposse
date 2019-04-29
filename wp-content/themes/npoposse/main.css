@@ -155,11 +155,21 @@ html {
 .marquee {
   position: relative;
 }
+.marquee .overlay {
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(100, 100, 100, 0.4);
+}
+.marquee .marquee-text {
+  left: 10%;
+  width: 90%;
+}
 .marquee img {
   width: 100%;
   height: auto;
 }
-.marquee > div {
+.marquee > div, .marquee > h1 {
   position: absolute;
   top: 40%;
   color: white;
@@ -167,10 +177,10 @@ html {
   width: 100%;
   font-size: 2rem;
 }
-.marquee > div .main {
+.marquee > div .main, .marquee > h1 .main {
   font-size: 7vw;
 }
-.marquee > div .tagline {
+.marquee > div .tagline, .marquee > h1 .tagline {
   width: 80%;
   font-size: 2.6vw;
   font-weight: 400;
@@ -742,16 +752,6 @@ html {
 }
 .activities-top p {
   font-size: 0.8rem;
-}
-.activities-top .overlay {
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(100, 100, 100, 0.4);
-}
-.activities-top .marquee-text {
-  left: 10%;
-  width: 90%;
 }
 .activities-top .content, .activities-top td, .activities-top th {
   font-size: 0.8rem;
