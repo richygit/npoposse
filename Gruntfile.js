@@ -91,12 +91,18 @@ module.exports = function(grunt) {
             dest: 'dev/images/activities/', 
             filter: 'isFile'
           },
-          
           {
             expand: true, 
             flatten: true, 
             src: ['src/js/*'], 
             dest: 'dev/js/', 
+            filter: 'isFile'
+          },
+          {
+            expand: true, 
+            flatten: true, 
+            src: ['dev/css/*'], 
+            dest: 'wp-content/themes/npoposse', 
             filter: 'isFile'
           },
         ],
