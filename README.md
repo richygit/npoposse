@@ -15,5 +15,11 @@ local user:
 admin
 admin
 
-# deploy
-Deploy with your favourite FTP client
+# deploy theme
+
+1. activate another theme here: https://posse655856309.wpcomstaging.com/wp-admin/themes.php
+2. Delete the old 'npoposse' theme
+3. Go to: https://wordpress.com/themes
+4. Select 'upload theme'
+5. Follow the steps to upload the new theme.
+6. active the new theme on the same page as step 1.
