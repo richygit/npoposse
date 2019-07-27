@@ -25,7 +25,7 @@
               <li> <span>残業代が払われない </span></li>
               <li> <span>パワハラ、嫌がらせ </span></li>
               <li> <span>雇用を打ち切られた</span></li>
-            </ul><a class="btn btn-primary" href="#">労働について相談したい</a>
+            </ul><a class="btn btn-primary" href="/労働相談">労働について相談したい</a>
           </div>
         </section>
         <section class="consultation col-md">
@@ -37,7 +37,7 @@
               <li> <span>金銭的に生活が苦しい</span></li>
               <li> <span>奨学金が返せない</span></li>
               <li> <span>生活保護を受けたい</span></li>
-            </ul><a class="btn btn-primary" href="#">生活について相談したい</a>
+            </ul><a class="btn btn-primary" href="/生活相談">生活について相談したい</a>
           </div>
         </section>
       </div>
@@ -73,7 +73,7 @@
             </div>
           </div>
         </div>
-        <div class="btn-container"><a class="btn btn-primary" href="#">詳しく見る</a></div>
+        <div class="btn-container"><a class="btn btn-primary" href="/ニュース">詳しく見る</a></div>
       </div>
 
 

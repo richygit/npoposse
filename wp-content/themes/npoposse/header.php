@@ -37,7 +37,7 @@
                 <a class="dropdown-item" href="/POSSEについて">POSSEについて</a>
                 <a class="dropdown-item" href="/活動内容">活動内容</a>
                 <a class="dropdown-item" href="/解決事例">解決事例</a>
-                <a class="dropdown-item" href="/相談のながれ">相談のながれ</a>
+                <a class="dropdown-item" href="/相談のながれ">相談のながれ・よくある質問</a>
               </div>
             </li>
 
