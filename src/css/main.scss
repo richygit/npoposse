@@ -1043,8 +1043,9 @@ html {
       }
     }
 
-    .navbar-nav {
+    .navbar-nav, .dropdown-menu {
         font-size: 0.7rem;
+        border: 0;
     }
 
     #main-menu {
@@ -1054,6 +1055,10 @@ html {
       background-color: $white;
 
       .navbar-nav .nav-link {
+        color: $theme-grey;
+      }
+
+      .dropdown-item {
         color: $theme-grey;
       }
 
@@ -1067,6 +1072,10 @@ html {
 
       a {
         padding: 0;
+      }
+
+      .dropdown-item {
+        padding: 8px;
       }
     }
 
@@ -1281,6 +1290,10 @@ html {
     }
   }
 
+
+  .dropdown-toggle::after {
+    display: none; // hide the bootstrap dropdown caret
+  }
 }
 
 //medium size to deal with crowded nav

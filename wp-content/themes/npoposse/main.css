@@ -904,8 +904,9 @@ html {
   .navbar .navbar-brand .tagline {
     font-size: 0.6rem;
   }
-  .navbar .navbar-nav {
+  .navbar .navbar-nav, .navbar .dropdown-menu {
     font-size: 0.7rem;
+    border: 0;
   }
   .navbar #main-menu {
     flex: 4;
@@ -914,6 +915,9 @@ html {
     background-color: #fff;
   }
   .navbar #main-menu .navbar-nav .nav-link {
+    color: #888;
+  }
+  .navbar #main-menu .dropdown-item {
     color: #888;
   }
   .navbar #main-menu .list {
@@ -925,6 +929,9 @@ html {
   }
   .navbar #main-menu a {
     padding: 0;
+  }
+  .navbar #main-menu .dropdown-item {
+    padding: 8px;
   }
   .navbar .btn-group {
     flex: 1;
@@ -1089,6 +1096,10 @@ html {
   }
   .activities-top .staff .profile-row .img {
     padding: 0 30px;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 850px) {
