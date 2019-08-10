@@ -18,7 +18,7 @@
                 </div>
                 <div class="row">
                   <div class="col-md">
-                    <div class="separator-container">
+                    <div class="page-content separator-container">
                       <div class="separator"></div>
                     </div>
                   </div>
@@ -114,7 +114,7 @@
                   </div>
                   <div class="row">
                     <div class="col-md">
-                      <div class="separator-container">
+                      <div class="page-content separator-container">
                         <div class="separator"></div>
                       </div>
                     </div>
@@ -136,7 +136,7 @@
                   </div>
                   <div class="row">
                     <div class="col-md">
-                      <div class="separator-container">
+                      <div class="page-content separator-container">
                         <div class="separator"></div>
                       </div>
                     </div>

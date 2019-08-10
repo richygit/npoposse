@@ -66,7 +66,7 @@
               $args = array( 'numberposts' => '3', 'post_status' => 'publish' );
               $recent_posts = wp_get_recent_posts( $args );
               foreach( $recent_posts as $recent ){
-                echo '<div class="news"><span class="date">' . get_the_date('Y.m.d', $recent) . '</span><span class="headline">' . $recent["post_title"] . '</span> <div class="content">' . $recent["post_excerpt"] . '</div> </div>';
+                echo '<div class="news"><span class="date">' . the_time( get_option( 'date_format' ) ) . '</span><span class="headline">' . $recent["post_title"] . '</span> <div class="content">' . $recent["post_excerpt"] . '</div> </div>';
               }
               wp_reset_query();
             ?>

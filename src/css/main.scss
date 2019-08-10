@@ -96,6 +96,17 @@ html {
     vertical-align: baseline;
 }
 
+@mixin window-link-icon-grey {
+    content: '';
+    background: url('/images/window-grey.png') no-repeat center center;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-size: 12px;
+    vertical-align: baseline;
+}
+
+
 .btn.btn-primary.window {
   &::after {
     @include window-link-icon;
@@ -419,6 +430,16 @@ html {
 }
 
 
+.container.latest {
+  .page-content.separator-container {
+    margin: 30px 0;
+  }
+
+  h2 {
+    margin-bottom: 40px;
+  }
+}
+
 .latest {
   .title {
     font-size: 2rem;
@@ -464,6 +485,27 @@ html {
       background-color: darken($theme-light-grey, 7%);
       border-color: darken($theme-light-grey, 7%);
     }
+  }
+
+  .news-nav {
+    display: flex;
+
+    .btn.btn-primary {
+      &::after {
+        color: $white;
+      }
+      &.back {
+        &::after {
+          content: ' ';
+        }
+        &::before {
+          content: '<';
+          font-weight: bold;
+          margin-right: 10px;
+          color: $white;
+        }
+      }
+    }  
   }
   .btn-container {
     margin: 0 10px 110px 10px;
@@ -586,7 +628,7 @@ html {
       font-size: 1rem;
     }
     .window-icon::after {
-      @include window-link-icon;
+      @include window-link-icon-grey;
       margin-left: 12px;
     }
   }
@@ -851,6 +893,16 @@ html {
   }
 }
 
+.page-content.separator-container {
+  background: $separator-grey;
+  height: 1px;
+
+  .separator {
+    top: -2px;
+    margin: 0;
+  }
+}
+
 .activities-top {
   font-weight: 400;
   line-height: 1.7rem;
@@ -875,16 +927,6 @@ html {
 
   .img {
     width: 100%;
-  }
-
-  .separator-container {
-    background: $separator-grey;
-    height: 1px;
-
-    .separator {
-      top: -2px;
-      margin: 0;
-    }
   }
 
   .intro {
@@ -1127,16 +1169,19 @@ html {
     }
   }
 
+  .news-item {
+    border-top: 1px solid $theme-light-grey;
+  }
+
+  .news-content .news {
+    margin-top: 0;
+  }
+
   .news {
     display:flex;
 
-    .date {
-      flex: 1;
-    }
-
     .headline {
-      flex: 1;
-      flex-basis: 7%;
+      flex-basis: 15%;
       padding: 0 4px;
       height: 1%;
       text-align: center;
@@ -1146,6 +1191,10 @@ html {
       flex: 8;
       margin-left: 20px;
       margin-top: -3px;
+    }
+
+    .post-title {
+      margin-left: 10px;
     }
   }
 
