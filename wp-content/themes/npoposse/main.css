@@ -520,7 +520,7 @@ html {
 }
 .menu-links .sub-menu .window-icon::after {
   content: '';
-  background: url("/wp-content/themes/npoposse/images/window.png") no-repeat center center;
+  background: url("/wp-content/themes/npoposse/images/window-grey.png") no-repeat center center;
   display: inline-block;
   width: 12px;
   height: 12px;
