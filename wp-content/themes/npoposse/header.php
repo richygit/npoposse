@@ -63,7 +63,7 @@
                 <a class="dropdown-item" href="/POSSEを支援する">POSSEを支援する</a>
                 <a class="dropdown-item" href="/寄付">募金で支援する</a>
                 <a class="dropdown-item" href="/会員活動で支援する">会員活動で支援する</a>
-                <a class="dropdown-item" href="https://possevolunteer.tumblr.com/">ボランティアに参加する</a>
+                <a class="dropdown-item" target="_blank" href="https://possevolunteer.tumblr.com/">ボランティアに参加する</a>
               </div>
             </li>
           </ul>

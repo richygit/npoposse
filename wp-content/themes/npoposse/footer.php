@@ -7,7 +7,7 @@
           <div class="buttons row">
             <div class="col-md"><a class="green btn btn-primary" href="/寄付">募金で支援する</a></div>
             <div class="col-md"><a class="green btn btn-primary" href="/会員制度">会員活動で支援する</a></div>
-            <div class="col-md"><a class="green btn btn-primary window" href="https://possevolunteer.tumblr.com/">ボランティアに参加する</a></div>
+            <div class="col-md"><a class="green btn btn-primary window" target="_blank" href="https://possevolunteer.tumblr.com/">ボランティアに参加する</a></div>
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@
                       <ul class="sub-menu">
                         <li><a href="/寄付">募金で支援する</a></li>
                         <li><a href="/会員制度">会員活動で支援する</a></li>
-                        <li><a href="#">ボランティアに参加する</a></li>
+                        <li><a target="_blank" href="https://possevolunteer.tumblr.com/">ボランティアに参加する</a></li>
                       </ul>
                     </li>
                   </ul>
