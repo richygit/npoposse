@@ -62,15 +62,14 @@
         <div class="separator"></div>
         <div class="row">
           <div class="col-md">
-            <div class="news"><span class="date">2018.6.9</span><span class="headline">メディア掲載</span>
-              <div class="content">週刊読書人ウェブ 栗原耕平(エキタス)+今野晴貴(POSSE)+雨宮処凜(反貧困ネットワーク世話人)=鼎談　＃最賃１５００円に</div>
-            </div>
-            <div class="news"><span class="date">2018.6.11</span><span class="headline">イベント</span>
-              <div class="content">6月27日（水）学生向けシンポジウム「過労死社会を変えるために」を開催します。</div>
-            </div>
-            <div class="news"><span class="date">2018.6.20 </span><span class="headline">お知らせ</span>
-              <div class="content">『生活相談Q&A』ページを開設しました。</div>
-            </div>
+            <?php
+              $args = array( 'numberposts' => '3', 'post_status' => 'publish' );
+              $recent_posts = wp_get_recent_posts( $args );
+              foreach( $recent_posts as $recent ){
+                echo '<div class="news"><span class="date">' . get_the_date('Y.m.d', $recent) . '</span><span class="headline">' . $recent["post_title"] . '</span> <div class="content">' . $recent["post_excerpt"] . '</div> </div>';
+              }
+              wp_reset_query();
+            ?>
           </div>
         </div>
         <div class="btn-container"><a class="btn btn-primary" href="/ニュース">詳しく見る</a></div>
