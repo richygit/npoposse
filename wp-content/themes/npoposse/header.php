@@ -27,7 +27,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse menu-links" id="main-menu">
           <ul class="list navbar-nav">
-            <li class="nav-item active"><a class="nav-link" href="/ニュース">ニュース<span class="sr-only">(current)</span></a></li>
+            <li class="nav-item active"><a class="nav-link" href="/news">ニュース<span class="sr-only">(current)</span></a></li>
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="about-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -35,9 +35,9 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="about-dropdown">
                 <a class="dropdown-item" href="/POSSEについて">POSSEについて</a>
-                <a class="dropdown-item" href="/活動内容">活動内容</a>
-                <a class="dropdown-item" href="/解決事例">解決事例</a>
-                <a class="dropdown-item" href="/相談のながれ">相談のながれ・よくある質問</a>
+                <a class="dropdown-item" href="/katsudounaiyou">活動内容</a>
+                <a class="dropdown-item" href="/kaiketsujirei">解決事例</a>
+                <a class="dropdown-item" href="/soudannonagare">相談のながれ・よくある質問</a>
               </div>
             </li>
 
@@ -46,9 +46,9 @@
                 相談窓口
               </a>
               <div class="dropdown-menu" aria-labelledby="consultation-dropdown">
-                <a class="dropdown-item" href="/相談窓口">相談窓口</a>
-                <a class="dropdown-item" href="/労働相談">労働相談</a>
-                <a class="dropdown-item" href="/生活相談">生活相談</a>
+                <a class="dropdown-item" href="/soudanmadoguchi">相談窓口</a>
+                <a class="dropdown-item" href="/roudousoudan">労働相談</a>
+                <a class="dropdown-item" href="/seikatsusoudan">生活相談</a>
               </div>
             </li>
 
@@ -61,14 +61,14 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="support-dropdown">
                 <a class="dropdown-item" href="/POSSEを支援する">POSSEを支援する</a>
-                <a class="dropdown-item" href="/寄付">募金で支援する</a>
-                <a class="dropdown-item" href="/会員活動で支援する">会員活動で支援する</a>
+                <a class="dropdown-item" href="/kifu">募金で支援する</a>
+                <a class="dropdown-item" href="/kaiinkatsudokeshiensuru">会員活動で支援する</a>
                 <a class="dropdown-item" target="_blank" href="https://possevolunteer.tumblr.com/">ボランティアに参加する</a>
               </div>
             </li>
           </ul>
         </div>
-        <div class="btn-group" role="toolbar" aria-label="生活相談, 労働相談"><a class="counselling btn align-middle" href="/労働相談">労働相談</a><a class="consultation btn align-middle" href="/生活相談">生活相談</a></div>
+        <div class="btn-group" role="toolbar" aria-label="生活相談, 労働相談"><a class="counselling btn align-middle" href="/roudousoudan">労働相談</a><a class="consultation btn align-middle" href="/seikatsusoudan">生活相談</a></div>
       </nav>
     </header>
     <div class="container-fluid">

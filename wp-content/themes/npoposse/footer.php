@@ -5,8 +5,8 @@
            ご寄付や会員登録、ボランティアを募集しています。<br>多くの若者の働き方や生活を改善するために、<br class="d-xs-block d-md-none">ぜひご協力ください。</div>
         <div class="container">
           <div class="buttons row">
-            <div class="col-md"><a class="green btn btn-primary" href="/寄付">募金で支援する</a></div>
-            <div class="col-md"><a class="green btn btn-primary" href="/会員制度">会員活動で支援する</a></div>
+            <div class="col-md"><a class="green btn btn-primary" href="/kifu">募金で支援する</a></div>
+            <div class="col-md"><a class="green btn btn-primary" href="/kaiinseido">会員活動で支援する</a></div>
             <div class="col-md"><a class="green btn btn-primary window" target="_blank" href="https://possevolunteer.tumblr.com/">ボランティアに参加する</a></div>
           </div>
         </div>
@@ -30,9 +30,9 @@
                     <li><a href="/POSSEについて">POSSEについて</a></li>
                     <li>
                       <ul class="sub-menu">
-                        <li><a href="/活動内容">活動内容</a></li>
-                        <li><a href="/解決事例">解決事例</a></li>
-                        <li><a href="/相談のながれ">相談の流れ・よくある質問</a></li>
+                        <li><a href="/katsudounaiyou">活動内容</a></li>
+                        <li><a href="/kaiketsujirei">解決事例</a></li>
+                        <li><a href="/soudannonagare">相談の流れ・よくある質問</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -40,16 +40,16 @@
                     <li><a href="/相談窓口">相談窓口</a></li>
                     <li>
                       <ul class="sub-menu">
-                        <li><a href="/労働相談">労働相談</a></li>
-                        <li><a href="/生活相談">生活相談</a></li>
+                        <li><a href="/roudousoudan">労働相談</a></li>
+                        <li><a href="/seikatsusoudan">生活相談</a></li>
                       </ul>
                     </li>
-                    <li><a href="/お問い合わせ">お問い合わせ</a></li>
-                    <li><a href="/POSSEを支援する">POSSEを支援する</a></li>
+                    <li><a href="/otoiawase">お問い合わせ</a></li>
+                    <li><a href="/support">POSSEを支援する</a></li>
                     <li>
                       <ul class="sub-menu">
-                        <li><a href="/寄付">募金で支援する</a></li>
-                        <li><a href="/会員制度">会員活動で支援する</a></li>
+                        <li><a href="/kifu">募金で支援する</a></li>
+                        <li><a href="/kaiinseido">会員活動で支援する</a></li>
                         <li><a target="_blank" href="https://possevolunteer.tumblr.com/">ボランティアに参加する</a></li>
                       </ul>
                     </li>
@@ -84,7 +84,7 @@
              ©Posse<br>PosseはNPO法人です。特定の宗教・政党との関係はありません。</div>
         </div>
       </div>
-    </div><! -- .container-fluid -->
+    </div><!-- .container-fluid -->
     <?php wp_footer(); ?>
   </body>
 </html>
