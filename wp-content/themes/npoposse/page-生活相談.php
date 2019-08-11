@@ -4,7 +4,7 @@
         <div class="row counselling">
           <div class="col-md">
             <div class="centre-text">
-              <div class="main">労働相談</div>
+              <div class="main">生活相談</div>
             </div>
           </div>
           <div class="marquee">
