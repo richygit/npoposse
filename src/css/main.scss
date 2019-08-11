@@ -1106,6 +1106,10 @@ html {
 
       .dropdown-item {
         color: $theme-grey;
+
+        &:active {
+          background-color: $theme-light-green;
+        }
       }
 
       .list {

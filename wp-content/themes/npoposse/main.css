@@ -948,6 +948,9 @@ html {
   .navbar #main-menu .dropdown-item {
     color: #888;
   }
+  .navbar #main-menu .dropdown-item:active {
+    background-color: #56b947;
+  }
   .navbar #main-menu .list {
     display: flex;
     justify-content: space-between;
