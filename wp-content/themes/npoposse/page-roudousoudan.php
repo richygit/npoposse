@@ -26,7 +26,7 @@
                     <p>そのほか、どんなことでも構いません。</p>
                     <p>ひとりで悩む前に、ぜひためしに一度、お気軽にご連絡ください。</p>
                   </div>
-                </div><a class="green btn btn-primary" href="#">相談フォームに進む</a>
+                </div><a class="green btn btn-primary" href="/roudousoudanotoiawase">相談フォームに進む</a>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@
             </div>
             <div class="row">
               <div class="col-md-4">
-                <div class="panel"><a class="btn btn-primary" href="#"><img class="icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/counselling/envelope-icn.png" alt="envelope icon">相談フォームに進む</a>
+                <div class="panel"><a class="btn btn-primary" href="/roudousoudanotoiawase"><img class="icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/counselling/envelope-icn.png" alt="envelope icon">相談フォームに進む</a>
                   <div class="note-text">
                      ※勤務先のＰＣからのご連絡はお控えください。相談員からの返信や通信履歴等から、労働相談をしたことや相談内容が勤務先へ漏れる可能性があります。</div>
                 </div>
