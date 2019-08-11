@@ -34,7 +34,7 @@
                 について
               </a>
               <div class="dropdown-menu" aria-labelledby="about-dropdown">
-                <a class="dropdown-item" href="/POSSEについて">POSSEについて</a>
+                <a class="dropdown-item" href="/about">POSSEについて</a>
                 <a class="dropdown-item" href="/katsudounaiyou">活動内容</a>
                 <a class="dropdown-item" href="/kaiketsujirei">解決事例</a>
                 <a class="dropdown-item" href="/soudannonagare">相談のながれ・よくある質問</a>
@@ -52,7 +52,7 @@
               </div>
             </li>
 
-            <li class="nav-item"><a class="nav-link" href="/お問い合わせ">お問い合わせ</a></li>
+            <li class="nav-item"><a class="nav-link" href="/otoiawase">お問い合わせ</a></li>
 
 
             <li class="nav-item dropdown">
@@ -60,7 +60,7 @@
                 POSSEを支援する
               </a>
               <div class="dropdown-menu" aria-labelledby="support-dropdown">
-                <a class="dropdown-item" href="/POSSEを支援する">POSSEを支援する</a>
+                <a class="dropdown-item" href="/support">POSSEを支援する</a>
                 <a class="dropdown-item" href="/kifu">募金で支援する</a>
                 <a class="dropdown-item" href="/kaiinkatsudokeshiensuru">会員活動で支援する</a>
                 <a class="dropdown-item" target="_blank" href="https://possevolunteer.tumblr.com/">ボランティアに参加する</a>

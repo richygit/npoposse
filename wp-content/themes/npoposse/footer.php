@@ -26,8 +26,8 @@
                 <div class="row">
                   <ul class="col-md">
                     <li> <a href="#">TOP</a></li>
-                    <li><a href="/ニュース">ニュース</a></li>
-                    <li><a href="/POSSEについて">POSSEについて</a></li>
+                    <li><a href="/news">ニュース</a></li>
+                    <li><a href="/about">POSSEについて</a></li>
                     <li>
                       <ul class="sub-menu">
                         <li><a href="/katsudounaiyou">活動内容</a></li>
@@ -37,7 +37,7 @@
                     </li>
                   </ul>
                   <ul class="col-md">
-                    <li><a href="/相談窓口">相談窓口</a></li>
+                    <li><a href="/soudanmadoguchi">相談窓口</a></li>
                     <li>
                       <ul class="sub-menu">
                         <li><a href="/roudousoudan">労働相談</a></li>
