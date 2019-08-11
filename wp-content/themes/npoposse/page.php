@@ -26,7 +26,7 @@
       <h1 class="marquee-text"><?php echo $page_title ?></h1>
     </div>
 
-    <div class="container">
+    <div class="container page">
       <div class="row">
         <div class="col">
           <?php the_content(); ?>

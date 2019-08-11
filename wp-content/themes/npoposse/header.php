@@ -31,10 +31,9 @@
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="about-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                について
+                POSSEについて
               </a>
               <div class="dropdown-menu" aria-labelledby="about-dropdown">
-                <a class="dropdown-item" href="/about">POSSEについて</a>
                 <a class="dropdown-item" href="/katsudounaiyou">活動内容</a>
                 <a class="dropdown-item" href="/kaiketsujirei">解決事例</a>
                 <a class="dropdown-item" href="/soudannonagare">相談のながれ・よくある質問</a>
@@ -60,8 +59,7 @@
                 POSSEを支援する
               </a>
               <div class="dropdown-menu" aria-labelledby="support-dropdown">
-                <a class="dropdown-item" href="/support">POSSEを支援する</a>
-                <a class="dropdown-item" href="/kifu">募金で支援する</a>
+                <a class="dropdown-item" href="/bokindeshiensuru">募金で支援する</a>
                 <a class="dropdown-item" href="/kaiinkatsudokeshiensuru">会員活動で支援する</a>
                 <a class="dropdown-item" target="_blank" href="https://possevolunteer.tumblr.com/">ボランティアに参加する</a>
               </div>

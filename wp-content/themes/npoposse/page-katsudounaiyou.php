@@ -212,11 +212,11 @@
           </div>
           <div class="col-lg-3 sidemenu">
             <ul>
-              <li><a href="#" alt="link">
+              <li><a href="/activity/index.html" alt="link">
                   <div class="menu-item">活動内容</div></a></li>
-              <li><a href="#" alt="link">
+              <li><a href="/soudan/solution_case.html" alt="link">
                   <div class="menu-item">解決事例</div></a></li>
-              <li><a href="#" alt="link">
+              <li><a href="/soudan/fromto.html" alt="link">
                   <div class="menu-item">相談の流れとよくある質問</div></a></li>
             </ul>
           </div>

@@ -13,7 +13,7 @@
       </div>
       <div class="bg-wrapper">
         <div class="container">
-          <div class="banners row"><a class="col-md" href="#"><img class="img banner" src="<?php bloginfo('stylesheet_directory'); ?>/images/posse_bnr.png" alt="posse magazine"></a><a class="col-md" href="#"><img class="img banner" src="<?php bloginfo('stylesheet_directory'); ?>/images/shigoto_bnr.png" alt="work report"></a></div>
+          <div class="banners row"><a class="col-md" href="/magazine/index.html"><img class="img banner" src="<?php bloginfo('stylesheet_directory'); ?>/images/posse_bnr.png" alt="posse magazine"></a><a class="col-md" href="https://www.amazon.co.jp/%E3%81%97%E3%81%94%E3%81%A8%E3%83%80%E3%82%A4%E3%82%A2%E3%83%AA%E3%83%BC2-NPO%E6%B3%95%E4%BA%BAPOSSE/dp/4906708536"><img class="img banner" src="<?php bloginfo('stylesheet_directory'); ?>/images/shigoto_bnr.png" alt="work report"></a></div>
         </div>
         <div class="container contact">
           <div class="row">
@@ -58,19 +58,24 @@
                     <li><a href="#">その他</a></li>
                     <li>
                       <ul class="sub-menu">
-                        <li><a href="#">取材・講演依頼について</a></li>
-                        <li><a href="#">組織図・賛同人</a></li>
-                        <li><a href="#">メディア報道</a></li>
-                        <li><a href="#">雑誌POSSE</a></li>
+                        <li><a href="/news/index.html">過去のメディア報道</a></li>
+                        <li><a href="/magazine/index.html">雑誌POSSE</a></li>
+                        <li><a href="/whats_posse/teikan_20180324.pdf">定款</a></li>
+                        <li><a href="/whats_posse/index.html">事業報告書</a></li>
+                        <li><a href="/soudan/seikatsuqa">生活相談Q&A</a></li>
+                        <li><a href="https://blog.goo.ne.jp/posse_blog">POSSEブログ</a></li>
+                        <li><a href="https://blog.goo.ne.jp/sendai-posse">仙台POSSE活動報告</a></li>
                       </ul>
                     </li>
                     <li><a href="#">関連リンク</a></li>
                     <li>
                       <ul class="sub-menu">
-                        <li><a class="window-icon" href="#">就職活動のための法律ガイド</a></li>
-                        <li><a class="window-icon" href="#">NPO法人POSSE解雇リストラ相談センター</a></li>
-                        <li><a class="window-icon" href="#">NPO法人POSSE奨学金Navi</a></li>
-                        <li><a class="window-icon" href="#">残業代請求サポートセンター</a></li>
+                        <li><a class="window-icon" href="/lawguide/guide.html">就職活動のための法律ガイド</a></li>
+                        <li><a class="window-icon" href="/soudancenter/index.html">NPO法人POSSE解雇リストラ相談センター</a></li>
+                        <li><a class="window-icon" href="/syogakukin/index.html">NPO法人POSSE奨学金Navi</a></li>
+                        <li><a class="window-icon" href="/zangyoudai/index.html">残業代請求サポートセンター</a></li>
+                        <li><a class="window-icon" href="https://foreignworkersupport.wixsite.com/mysite">POSSE外国人労働サポートセンター</a></li>
+                        <li><a class="window-icon" href="https://possevolunteer.tumblr.com">ボランティア募集特設サイト</a></li>
                       </ul>
                     </li>
                   </ul>
