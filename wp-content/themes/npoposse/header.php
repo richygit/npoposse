@@ -45,7 +45,6 @@
                 相談窓口
               </a>
               <div class="dropdown-menu" aria-labelledby="consultation-dropdown">
-                <a class="dropdown-item" href="/soudanmadoguchi">相談窓口</a>
                 <a class="dropdown-item" href="/roudousoudan">労働相談</a>
                 <a class="dropdown-item" href="/seikatsusoudan">生活相談</a>
               </div>
