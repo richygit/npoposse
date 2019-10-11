@@ -115,38 +115,9 @@
             </div>
           </div>
         </section>
-        <section class="characteristics">
-          <div class="container">
-            <div class="row">
-              <div class="col-md">
-                <div class="centre-text">
-                  <div class="title">POSSEの特徴</div>
-                </div>
-                <div class="separator"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md panel"><img class="img" src="<?php bloginfo('stylesheet_directory'); ?>/images/counselling/characteristics1.png" alt="characteristics">
-                <div class="detail">
-                  <div class="lead"><span>POSSEの特徴</span>を伝えられるようなテキストを入れたいです。</div>
-                  <div class="content">POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。</div>
-                </div>
-              </div>
-              <div class="col-md panel"><img class="img" src="<?php bloginfo('stylesheet_directory'); ?>/images/counselling/characteristics1.png" alt="characteristics">
-                <div class="detail">
-                  <div class="lead"><span>POSSEの特徴</span>を伝えられるようなテキストを入れたいです。</div>
-                  <div class="content">POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。</div>
-                </div>
-              </div>
-              <div class="col-md panel"><img class="img" src="<?php bloginfo('stylesheet_directory'); ?>/images/counselling/characteristics1.png" alt="characteristics">
-                <div class="detail">
-                  <div class="lead"><span>POSSEの特徴</span>を伝えられるようなテキストを入れたいです。</div>
-                  <div class="content">POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
+        <?php get_template_part('characteristics', get_post_format()); ?>
+
         <section class="contact-cta">
           <div class="container">
             <div class="row">

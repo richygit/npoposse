@@ -223,8 +223,21 @@
         </div>
       </div>
 
+      <section class="contact-cta">
+        <div class="container">
+          <div class="row">
+            <div class="col-md">
+              <div class="centre-text">
+                <div class="title">お気軽にご相談ください</div>
+                <div class="content">相談無料  /  秘密厳守  /  メール・電話OK</div>
+              </div>
+            </div>
+          </div>
 
-      <?php get_template_part( 'contact-cta', get_post_format() ); ?>
+          <?php get_template_part( 'contact-cta', get_post_format() ); ?>
+
+        </div>
+      </section>
 
 
 <?php get_footer(); ?>
