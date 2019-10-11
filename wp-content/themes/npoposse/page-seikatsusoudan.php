@@ -19,12 +19,16 @@
             <div class="row">
               <div class="col-md">
                 <div class="centre-text">
-                  <div class="lead">労働トラブルについて<br>NPO法人POSSEでは<br>相談を無料で受け付けています。 </div>
+                  <div class="lead">生活保護の利用や奨学金に関するお困りごとについて、<br/>NPO法人POSSEでは</br>相談を無料で受け付けています。</div>
                   <div class="lead-text">
-                    <p>残業代が支払われない | 有給休暇がとれない | 休みがとれない</p>
-                    <p>セクハラ、パワハラ、嫌がらせをされた | 仕事をやめさせられそうになっている | 仕事をやめさせてもらえない</p>
-                    <p>そのほか、どんなことでも構いません。</p>
-                    <p>ひとりで悩む前に、ぜひためしに一度、お気軽にご連絡ください。</p>
+                    <ul>
+                      <li>生活に困窮し、役所に生活保護の申請に行ったが、申請させてくれない</li>
+                      <li>住居がない状態で申請に行ったら、施設に入れと言われた</li>
+                      <li>ケースワーカーからひどい言葉を投げつけられた</li>
+                      <li>ケースワーカーから誓約書や生活保護の辞退届を書くよう迫られている</li>
+                    </ul>
+
+                    <p>これらのような、生活保護の利用に関するトラブルの相談を受け付けています。</p>
                   </div>
                 </div><a class="green btn btn-primary" href="/seikatsusoudanotoiawase">相談フォームに進む</a>
               </div>
@@ -128,20 +132,20 @@
             <div class="row">
               <div class="col-md panel"><img class="img" src="<?php bloginfo('stylesheet_directory'); ?>/images/counselling/characteristics1.png" alt="characteristics">
                 <div class="detail">
-                  <div class="lead"><span>POSSEの特徴</span>を伝えられるようなテキストを入れたいです。</div>
-                  <div class="content">POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。</div>
+                  <div class="lead">POSSEは全国から無料で労働・生活・奨学金相談を受け付けています。</div>
+                  <div class="content">POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。日本全国から無料で相談を受け付けて、抱えている問題を解決できるようにアドバイスを行っています。</div>
                 </div>
               </div>
               <div class="col-md panel"><img class="img" src="<?php bloginfo('stylesheet_directory'); ?>/images/counselling/characteristics1.png" alt="characteristics">
                 <div class="detail">
-                  <div class="lead"><span>POSSEの特徴</span>を伝えられるようなテキストを入れたいです。</div>
-                  <div class="content">POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。</div>
+                  <div class="lead">労働組合や弁護士、行政、NPO、教育機関など様々な団体と連携し、問題解決に取り組んでいます。</div>
+                  <div class="content">POSSEは、労働や福祉に関する様々な専門機関と連携しながら、ブラック企業や過労死、貧困をなくすために取り組んでいます。</div>
                 </div>
               </div>
               <div class="col-md panel"><img class="img" src="<?php bloginfo('stylesheet_directory'); ?>/images/counselling/characteristics1.png" alt="characteristics">
                 <div class="detail">
-                  <div class="lead"><span>POSSEの特徴</span>を伝えられるようなテキストを入れたいです。</div>
-                  <div class="content">POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。労働や生活に関する相談を無料で受け付けています。POSSE（ポッセ）は若者の労働・貧困問題に取り組むNPO法人です。</div>
+                  <div class="lead">情報発信を通じて、問題を可視化しています。</div>
+                  <div class="content">雑誌『POSSE』やインターネットメディアを通じて、働き方の実態を告発しています。</div>
                 </div>
               </div>
             </div>
@@ -160,29 +164,27 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="panel"><a class="btn btn-primary" href="/seikatsusoudanotoiawase"><img class="icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/counselling/envelope-icn.png" alt="envelope icon">相談フォームに進む</a>
-                  <div class="note-text">
-                     ※勤務先のＰＣからのご連絡はお控えください。相談員からの返信や通信履歴等から、労働相談をしたことや相談内容が勤務先へ漏れる可能性があります。</div>
                 </div>
               </div>
               <div class="col-md-8">
                 <div class="panel">
                   <div class="centre-text">
-                    <div class="hours">平日17:00-22:00 / 土日祝12:00-22:00 火曜定休</div>
-                    <div class="phone-no">03-6699-9359</div>
+                    <div class="hours">水曜日 18:00~21:00／土日曜13:00~17:00</div>
+                    <div class="phone-no">03-6699-6313<br/>（生活相談専用）</div>
                     <div class="phone-sub">
                       <div class="content">
-                         東北地方にお住まいの方はこちら </div>
+                         東北地方にお住まいの方はこちら
+                      </div>
                       <div class="number">022-302-3349</div>
                     </div>
                   </div>
-                  <ul>
-                    <li>
-                       現在、相談の増加により、電話がつながりにくくなっております。 　電話がつながらなかった場合は、お手数ですが、留守番電話へメッセージを残していただくか、メール相談フォームにて相談をお送りください。</li>
-                    <li>
-                       留守番電話の場合は、①労働相談をご希望であることと、②端的なご相談内容を残していただきましたら、順次折り返しご連絡をさせていただきます。</li>
-                  </ul>
-                  <div class="note-text">
-                     ※勤務先の固定電話、業務用の携帯電話からのご連絡はお控えください。相談員からの折り返しの電話連絡や通信履歴等から、労働相談をしたことが勤務先へ漏れる可能性があります。</div>
+                  <p class="notes">
+                     ※現在、相談が増加しており、面談の対応等により電話に出られないことがあります。
+電話がつながらなかった場合、メールでのご相談の方が確実に対応できますので、相談フォームを通じてご相談内容をお送りください。
+                  </p>
+                  <p class="notes">
+                    ※留守番電話にメッセージを残していただく場合は、①生活相談をご希望であること、②端的なご相談内容を教えていただきましたら、順次折り返しご連絡をさせていただきます。
+                  </p>
                 </div>
               </div>
             </div>

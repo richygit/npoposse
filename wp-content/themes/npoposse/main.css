@@ -619,7 +619,7 @@ html {
   line-height: 1.2rem;
   margin: 10px auto;
 }
-.contact-cta ul {
+.contact-cta .notes {
   font-size: 0.7rem;
   color: grey;
   font-weight: 300;
@@ -650,7 +650,6 @@ html {
 }
 .counselling-top .opener .lead-text {
   margin-top: 25px;
-  font-weight: 600;
   font-size: 0.9rem;
   line-height: 1.5rem;
 }

@@ -28,7 +28,7 @@
 
     <div class="container page">
       <div class="row">
-        <div class="col">
+        <div class="col-lg-9">
           <?php the_content(); ?>
         </div>
       </div>

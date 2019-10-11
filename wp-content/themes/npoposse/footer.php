@@ -19,7 +19,7 @@
           <div class="row">
             <div class="contact-info col-md-4">
               <div class="logo"><img class="img" src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png" alt="npo posse logo"></div>
-              <div class="address"><span class="company-number">06-0000-0000</span>〒155-0031<br>東京都世田谷区北沢4-17-15<br>ローゼンハイム下北沢201</div>
+              <div class="address"><span class="company-number">03-6699-9375</span>〒155-0031<br>東京都世田谷区北沢4-17-15<br>ローゼンハイム下北沢201</div>
             </div>
             <footer class="menu-links col-md-8">
               <div class="container">
